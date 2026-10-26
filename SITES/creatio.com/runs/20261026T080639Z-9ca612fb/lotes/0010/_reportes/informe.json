@@ -1,0 +1,568 @@
+{
+  "sitio": "https://creatio.com/",
+  "fecha": "2026-10-26T08:28:16.359710+00:00",
+  "paginas": [
+    "https://www.creatio.com/page/the-state-of-enterprise-ai-adoption?activity=banner",
+    "https://www.creatio.com/company/news/25039",
+    "https://www.creatio.com/company/news/25043",
+    "https://www.creatio.com/company/news/25038",
+    "https://www.creatio.com/no-code/courses",
+    "https://www.creatio.com/no-code/podcast-and-videos",
+    "https://www.creatio.com/glossary",
+    "https://www.creatio.com/crm/what-is-crm",
+    "https://www.creatio.com/privacy-policy",
+    "https://www.creatio.com/GDPR"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 81,
+  "fotografias_descargadas": 51,
+  "bytes_fotografias": 8647859,
+  "recursos_pendientes": 170,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 19185063,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://www.creatio.com/page/sites/landings/files/css/css_NFkcv1iPgGvmrbzFnLNTdsCb-_yTZP7UygUVXptN8Ns.css?delta=3&language=en&theme=creatio_landings&include=eJx9j1FuxCAMRC8UQNoLRQ5MslSAEXa7SU9fUmXVD7b7A3jeeLA9N7jQPislq9iVGsg0SPzG5E9WuGVKv2VHGtnpUfFoUdGe0pyohFg2cZ5z5YKiZu1989ftneUOCq9CkJA7F3uR0bEyv_w-Fk2zIo0kYSN_zCsVfyy8T3KIIruFBJPK0-f-nlbvMKKkMLyaPg5abVFgKBoKXHt6mR5Yzj3ddVv6oH0Qr3VsgFJMYpW3LeFfW4YIbSM_j0HsQ2ZYn0jk-AG7SbNV",
+      "archivo": "recursos/03/038df16dd8dbffa74346-css_NFkcv1iPgGvmrbzFnLNTdsCb-_yTZP7UygUVXptN8Ns.css"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/shadow.webp",
+      "archivo": "recursos/68/68a63674ede8b469d32d-shadow.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/page-left-v2.webp",
+      "archivo": "recursos/08/0881d3c78c4a5895a331-page-left-v2.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/page-left-v2-2x.webp",
+      "archivo": "recursos/3b/3bbf3e5370dda31e89af-page-left-v2-2x.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/page-right.webp",
+      "archivo": "recursos/3c/3ca77cd1c7f7180dbfa5-page-right.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/page-right-2x.webp",
+      "archivo": "recursos/6f/6f9a5ee45ecc7ee607c4-page-right-2x.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/book-v2.webp",
+      "archivo": "recursos/55/556336eede1dca0c60f5-book-v2.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/book-v2-2x.webp",
+      "archivo": "recursos/d8/d811a2069089d962b384-book-v2-2x.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/bg-grey.jpg",
+      "archivo": "recursos/5e/5ef3d1ba1a69305302ea-bg-grey.jpg"
+    },
+    {
+      "url": "https://storage.creatio.com/ln/s3fs-public/landing/the-state-of-enterprise-ai-adoption/cta-bg-v2.jpg",
+      "archivo": "recursos/97/9742a827813b449285b6-cta-bg-v2.jpg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/styles/news_full/public/news/2026-10/960x502_website_the-state-of-enterprise-ai-adoption-2x-1.png.webp?itok=POQ_Bppf",
+      "archivo": "recursos/fc/fc14be55105ffa632be0-960x502_website_the-state-of-enterprise-ai-adoption-2x-1.png.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/2026-10/1200x628_ppc_the-state-of-enterprise-ai-adoption-2x.png",
+      "archivo": "recursos/b0/b06449550e8c68f8734e-1200x628_ppc_the-state-of-enterprise-ai-adoption-2x.png"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/styles/news_full/public/news/2026-10/gartner-it-symposium.png.webp?itok=2zcVSTZT",
+      "archivo": "recursos/94/947781357e0e663621ee-gartner-it-symposium.png.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/2026-10/1200x628_social_gartner-it-symposium-na_save-the-date-2x.png",
+      "archivo": "recursos/95/951db09c00f84d997559-1200x628_social_gartner-it-symposium-na_save-the-date-2x.png"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/styles/news_full/public/news/2026-10/960x502_creatio_8.3.4_release-2x.png.webp?itok=SKxtQPTY",
+      "archivo": "recursos/c8/c83138db8216a43ac4b5-960x502_creatio_8.3.4_release-2x.png.webp"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/2026-10/1200x628_creatio_8.3.4_release-2x.png",
+      "archivo": "recursos/76/76f4e7eba19b0284b011-1200x628_creatio_8.3.4_release-2x.png"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_Ub97F6CArqx4yHnFpHCy8lHs27oO87pMAaPdmW9YX_0.css?delta=1&language=en&theme=creatio&include=eJxlj9EOgzAIRX9I7SeZ28q0k0JTajL39evWxSzZG_cEDhAYZqfzMBpCrxOZYSUbghZyQVNWIak2hUKoUccxkRyjhwiV3rSUI4Mn3PHoQLQkcHw2aR9yXrVaLcgXIab09l5gZfXgK26E5b3gG6PcmvQHZMbZrPsc9CjtfNMQwXOiJWLmKLu5fzTVrW0d7LRK6fP2C2A_ZB8",
+      "archivo": "recursos/0c/0c9b1f02fbcb3639a80b-css_Ub97F6CArqx4yHnFpHCy8lHs27oO87pMAaPdmW9YX_0.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_TIYrKB9YULcD83Q24Un4W0Lq8hSYTU7xL65LoIEGVlA.css?delta=2&language=en&theme=creatio&include=eJxlj9EOgzAIRX9I7SeZ28q0k0JTajL39evWxSzZG_cEDhAYZqfzMBpCrxOZYSUbghZyQVNWIak2hUKoUccxkRyjhwiV3rSUI4Mn3PHoQLQkcHw2aR9yXrVaLcgXIab09l5gZfXgK26E5b3gG6PcmvQHZMbZrPsc9CjtfNMQwXOiJWLmKLu5fzTVrW0d7LRK6fP2C2A_ZB8",
+      "archivo": "recursos/0f/0f31b85f528dc36b873b-css_TIYrKB9YULcD83Q24Un4W0Lq8hSYTU7xL65LoIEGVlA.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/pages/no-code/playbook-course/based_on-books.svg",
+      "archivo": "recursos/83/831df166ebb64c1504d8-based_on-books.svg"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_1mBuPso8RdYlRBPLm0nMSfNLsCOee3HKj_MJtqh6mPY.css?delta=4&language=en&theme=creatio&include=eJxlj9EOgzAIRX9I7SeZ28q0k0JTajL39evWxSzZG_cEDhAYZqfzMBpCrxOZYSUbghZyQVNWIak2hUKoUccxkRyjhwiV3rSUI4Mn3PHoQLQkcHw2aR9yXrVaLcgXIab09l5gZfXgK26E5b3gG6PcmvQHZMbZrPsc9CjtfNMQwXOiJWLmKLu5fzTVrW0d7LRK6fP2C2A_ZB8",
+      "archivo": "recursos/e8/e83e88e20eedb594be76-css_1mBuPso8RdYlRBPLm0nMSfNLsCOee3HKj_MJtqh6mPY.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css?delta=5&language=en&theme=creatio&include=eJxlj9EOgzAIRX9I7SeZ28q0k0JTajL39evWxSzZG_cEDhAYZqfzMBpCrxOZYSUbghZyQVNWIak2hUKoUccxkRyjhwiV3rSUI4Mn3PHoQLQkcHw2aR9yXrVaLcgXIab09l5gZfXgK26E5b3gG6PcmvQHZMbZrPsc9CjtfNMQwXOiJWLmKLu5fzTVrW0d7LRK6fP2C2A_ZB8",
+      "archivo": "recursos/81/81f7a53ee741d2add58d-css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/no-code/playbook-course/main-x1.png.webp",
+      "archivo": "recursos/1e/1e64854aa54c2038a8f4-main-x1.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/no-code/playbook-course/main-x2.png.webp",
+      "archivo": "recursos/13/13b7dff09b0aa43bb850-main-x2.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/no-code/playbook-course/based_on-person-x1.png.webp",
+      "archivo": "recursos/f3/f397a80ebbcbd16c50e9-based_on-person-x1.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/no-code/playbook-course/based_on-person-x2.png.webp",
+      "archivo": "recursos/77/7744d51e79905cb915e8-based_on-person-x2.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/no-code/playbook-course/certificate-x1.png.webp",
+      "archivo": "recursos/ad/ad4f7f3de23d13ce870c-certificate-x1.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_EDZJTB21ubr42fyfWAm1D1pqeLm1WwCtc57MkkBNTtA.css?delta=1&language=en&theme=creatio&include=eJxlj1GOwzAIRC-UxEeysD1NrWKIDN1te_o6TVuttD-IecAACe7oEbdNDSWeKg9pYYWgE0-ZyeweEhk-eYMZrbCPFi2jph0ha9tUIG5L7iCvOs8Ncp0TybA7mkR7I66PMXP0hKTq5p22LwGj7TZRuXzhypr2i97yDCq751tWOQ3jP2DTksl8Ms2VODaUSpGrXCz8R4ufx8bJ7uZox7c_Fb8WXnFpWq6MJ0CwdGU",
+      "archivo": "recursos/33/335a87d0e00730413ffb-css_EDZJTB21ubr42fyfWAm1D1pqeLm1WwCtc57MkkBNTtA.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_txpXTH6IEYTvj-hoR0Lpi2kjXzVaaVjB3Yv2S8s5BOw.css?delta=2&language=en&theme=creatio&include=eJxlj1GOwzAIRC-UxEeysD1NrWKIDN1te_o6TVuttD-IecAACe7oEbdNDSWeKg9pYYWgE0-ZyeweEhk-eYMZrbCPFi2jph0ha9tUIG5L7iCvOs8Ncp0TybA7mkR7I66PMXP0hKTq5p22LwGj7TZRuXzhypr2i97yDCq751tWOQ3jP2DTksl8Ms2VODaUSpGrXCz8R4ufx8bJ7uZox7c_Fb8WXnFpWq6MJ0CwdGU",
+      "archivo": "recursos/02/027385b57ffc49981941-css_txpXTH6IEYTvj-hoR0Lpi2kjXzVaaVjB3Yv2S8s5BOw.css"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/creatio/img/icons/podcast/ic-podcast.svg",
+      "archivo": "recursos/50/50563cc5e1fb0899ee0a-ic-podcast.svg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/creatio/img/icons/podcast/ic-sound.svg",
+      "archivo": "recursos/58/5889d4437603865f8f7b-ic-sound.svg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/creatio/img/icons/podcast/ic-video.svg",
+      "archivo": "recursos/02/02f22b0650644e0a62e5-ic-video.svg"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_7S7yBQMImZZ1V5VA1q9miboAxKEqRiDRD1fEZMpSxkc.css?delta=4&language=en&theme=creatio&include=eJxlj1GOwzAIRC-UxEeysD1NrWKIDN1te_o6TVuttD-IecAACe7oEbdNDSWeKg9pYYWgE0-ZyeweEhk-eYMZrbCPFi2jph0ha9tUIG5L7iCvOs8Ncp0TybA7mkR7I66PMXP0hKTq5p22LwGj7TZRuXzhypr2i97yDCq751tWOQ3jP2DTksl8Ms2VODaUSpGrXCz8R4ufx8bJ7uZox7c_Fb8WXnFpWq6MJ0CwdGU",
+      "archivo": "recursos/a6/a6a7c03df61a739ac632-css_7S7yBQMImZZ1V5VA1q9miboAxKEqRiDRD1fEZMpSxkc.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css?delta=5&language=en&theme=creatio&include=eJxlj1GOwzAIRC-UxEeysD1NrWKIDN1te_o6TVuttD-IecAACe7oEbdNDSWeKg9pYYWgE0-ZyeweEhk-eYMZrbCPFi2jph0ha9tUIG5L7iCvOs8Ncp0TybA7mkR7I66PMXP0hKTq5p22LwGj7TZRuXzhypr2i97yDCq751tWOQ3jP2DTksl8Ms2VODaUSpGrXCz8R4ufx8bJ7uZox7c_Fb8WXnFpWq6MJ0CwdGU",
+      "archivo": "recursos/81/81f7a53ee741d2add58d-css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/pages/podcast/title.svg",
+      "archivo": "recursos/45/4561f50cf5ff3e9c6398-title.svg"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/pages/podcast/wave.mp4",
+      "archivo": "recursos/cf/cf9664ca5b237a837bb3-wave.mp4"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/podcast/logo/Transform.svg",
+      "archivo": "recursos/9e/9e68adaa771b159a650c-Transform.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/podcast/logo-mobile/Transform.svg",
+      "archivo": "recursos/9e/9e68adaa771b159a650c-Transform.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/podcast/logo/Mindset.svg",
+      "archivo": "recursos/7f/7f31ee785078ea0d2f92-Mindset.svg"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_fhHThzKSZw8SMkI-vsUX5hUQC6tdvDBcJlMuo0XwEiM.css?delta=1&language=en&theme=creatio&include=eJxlj9EKwjAMRX9oWz9ppN11BptkNJ0yv95qZQi-hNzD5YSkTO5HiOQYUt8F7rTCh2QFIZlsptDqUyqgyjaOAt3HSKoovaRWhDI_m6N3QjSrXgtts7CedM0WKf_GdqocJ7iClrfzG1kvTdyAW2LKs2BhmjPrzcM_muoVgsEPr5D-0Z3x8PCZk9iyZ7wAyXldUw",
+      "archivo": "recursos/fe/feebcbd835130eb8fd35-css_fhHThzKSZw8SMkI-vsUX5hUQC6tdvDBcJlMuo0XwEiM.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_awQ1YlcKosf2dZs9MWBRrur3iifo4vLyzgg4DlnGtZs.css?delta=2&language=en&theme=creatio&include=eJxlj9EKwjAMRX9oWz9ppN11BptkNJ0yv95qZQi-hNzD5YSkTO5HiOQYUt8F7rTCh2QFIZlsptDqUyqgyjaOAt3HSKoovaRWhDI_m6N3QjSrXgtts7CedM0WKf_GdqocJ7iClrfzG1kvTdyAW2LKs2BhmjPrzcM_muoVgsEPr5D-0Z3x8PCZk9iyZ7wAyXldUw",
+      "archivo": "recursos/0b/0b8a76cde09d941075ed-css_awQ1YlcKosf2dZs9MWBRrur3iifo4vLyzgg4DlnGtZs.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_9Sw4BrHuIyZEJ0vEXrFMk7dhZ3R5BJoWzhk54E-1e-4.css?delta=4&language=en&theme=creatio&include=eJxlj9EKwjAMRX9oWz9ppN11BptkNJ0yv95qZQi-hNzD5YSkTO5HiOQYUt8F7rTCh2QFIZlsptDqUyqgyjaOAt3HSKoovaRWhDI_m6N3QjSrXgtts7CedM0WKf_GdqocJ7iClrfzG1kvTdyAW2LKs2BhmjPrzcM_muoVgsEPr5D-0Z3x8PCZk9iyZ7wAyXldUw",
+      "archivo": "recursos/7d/7de064e9a94c7e836b3b-css_9Sw4BrHuIyZEJ0vEXrFMk7dhZ3R5BJoWzhk54E-1e-4.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css?delta=5&language=en&theme=creatio&include=eJxlj9EKwjAMRX9oWz9ppN11BptkNJ0yv95qZQi-hNzD5YSkTO5HiOQYUt8F7rTCh2QFIZlsptDqUyqgyjaOAt3HSKoovaRWhDI_m6N3QjSrXgtts7CedM0WKf_GdqocJ7iClrfzG1kvTdyAW2LKs2BhmjPrzcM_muoVgsEPr5D-0Z3x8PCZk9iyZ7wAyXldUw",
+      "archivo": "recursos/81/81f7a53ee741d2add58d-css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/074-crm-ai.svg",
+      "archivo": "recursos/3a/3a0a3fb8044fe8ad01b5-074-crm-ai.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/190-agentic-ai%20%281%29.svg",
+      "archivo": "recursos/f3/f371ce41df41557273ca-190-agentic-ai__1.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/Top-12-Salesforce-CRM-Competitors.svg",
+      "archivo": "recursos/76/76a2c6bc0af802342002-Top-12-Salesforce-CRM-Competitors.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/What-is-Enterprise-CRM-Software.svg",
+      "archivo": "recursos/de/dea68c24d8e9eb2f9546-What-is-Enterprise-CRM-Software.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/The-5-Best-Banking-CRM-Software.svg",
+      "archivo": "recursos/7c/7c4a9ad49f1109fc7dce-The-5-Best-Banking-CRM-Software.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/054-mendix-alternatives_0.svg",
+      "archivo": "recursos/48/488348e1ad3307893aef-054-mendix-alternatives_0.svg"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/glossary/what-is-crm-strategy.svg",
+      "archivo": "recursos/7b/7b1873fd86d4203681ca-what-is-crm-strategy.svg"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_Ub97F6CArqx4yHnFpHCy8lHs27oO87pMAaPdmW9YX_0.css?delta=1&language=en&theme=creatio&include=eJx9kdtuwzAIQH8oTl72PxaxaUKHITKkXff1dZsprRppb3C46AgSg9ltGMGwS1tc0AwmtC5pxSFpWVRQ3PpUEZw0hAQ1W7jO4JEsplqCrOWf_oKyhhFEsG5Nua4LcA9n-NmAaC3A9NsktqFhVHXzCstOkLEt8gCpjWRSOVSYzA_QLWYs-sktKucdTqwj8J7OCPnh-peSnJrfGxC40PSIXg5v1-gvX51pIuBYMBNEJvm24Yh6n5tLZzdzLM8f3AEjsJod",
+      "archivo": "recursos/0c/0c9b1f02fbcb3639a80b-css_Ub97F6CArqx4yHnFpHCy8lHs27oO87pMAaPdmW9YX_0.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_Q-H_gMawbbPx5-FmFClhJ_uiaKZp6FWSVHHB9_5--04.css?delta=2&language=en&theme=creatio&include=eJx9kdtuwzAIQH8oTl72PxaxaUKHITKkXff1dZsprRppb3C46AgSg9ltGMGwS1tc0AwmtC5pxSFpWVRQ3PpUEZw0hAQ1W7jO4JEsplqCrOWf_oKyhhFEsG5Nua4LcA9n-NmAaC3A9NsktqFhVHXzCstOkLEt8gCpjWRSOVSYzA_QLWYs-sktKucdTqwj8J7OCPnh-peSnJrfGxC40PSIXg5v1-gvX51pIuBYMBNEJvm24Yh6n5tLZzdzLM8f3AEjsJod",
+      "archivo": "recursos/f3/f3afdb7afaaa9d4c5be3-css_Q-H_gMawbbPx5-FmFClhJ_uiaKZp6FWSVHHB9_5--04.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_ki5wMj9irshDUat4Cl9TmoTCuX0zQQK441D4_mthKxc.css?delta=4&language=en&theme=creatio&include=eJx9kdtuwzAIQH8oTl72PxaxaUKHITKkXff1dZsprRppb3C46AgSg9ltGMGwS1tc0AwmtC5pxSFpWVRQ3PpUEZw0hAQ1W7jO4JEsplqCrOWf_oKyhhFEsG5Nua4LcA9n-NmAaC3A9NsktqFhVHXzCstOkLEt8gCpjWRSOVSYzA_QLWYs-sktKucdTqwj8J7OCPnh-peSnJrfGxC40PSIXg5v1-gvX51pIuBYMBNEJvm24Yh6n5tLZzdzLM8f3AEjsJod",
+      "archivo": "recursos/85/8512979c1e66f909853c-css_ki5wMj9irshDUat4Cl9TmoTCuX0zQQK441D4_mthKxc.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css?delta=5&language=en&theme=creatio&include=eJx9kdtuwzAIQH8oTl72PxaxaUKHITKkXff1dZsprRppb3C46AgSg9ltGMGwS1tc0AwmtC5pxSFpWVRQ3PpUEZw0hAQ1W7jO4JEsplqCrOWf_oKyhhFEsG5Nua4LcA9n-NmAaC3A9NsktqFhVHXzCstOkLEt8gCpjWRSOVSYzA_QLWYs-sktKucdTqwj8J7OCPnh-peSnJrfGxC40PSIXg5v1-gvX51pIuBYMBNEJvm24Yh6n5tLZzdzLM8f3AEjsJod",
+      "archivo": "recursos/81/81f7a53ee741d2add58d-css_H9N9wWY7jahw2rM-3ZA3N9JApdWin1DAATxROQ4saX8.css"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/mobile/public/pages/what_is_crm/v4/New-Era-Agentic-CRM-baner-img@1x.png.webp",
+      "archivo": "recursos/1d/1d577218bd2b518ede2c-New-Era-Agentic-CRM-baner-img_1x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/mobile_2x/public/pages/what_is_crm/v4/New-Era-Agentic-CRM-baner-img@2x.png.webp",
+      "archivo": "recursos/3c/3c27de7bad811e4914d3-New-Era-Agentic-CRM-baner-img_2x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/what_is_crm/v4/New-Era-Agentic-CRM-baner-img@1x.png.webp",
+      "archivo": "recursos/45/451b85f9e528f7598a29-New-Era-Agentic-CRM-baner-img_1x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/what_is_crm/v4/New-Era-Agentic-CRM-baner-img@2x.png.webp",
+      "archivo": "recursos/c5/c570a26c959ee79fd79a-New-Era-Agentic-CRM-baner-img_2x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/mobile/public/pages/products/sales/10-Sales-CTA-2@1x.png.webp",
+      "archivo": "recursos/9d/9da6f73343ea6a4cf958-10-Sales-CTA-2_1x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/mobile_2x/public/pages/products/sales/10-Sales-CTA-2@2x.png.webp",
+      "archivo": "recursos/7b/7b1e7860b9d4db09b258-10-Sales-CTA-2_2x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/products/sales/10-Sales-CTA-2@1x.png.webp",
+      "archivo": "recursos/c8/c8ee3630d48709ce93e7-10-Sales-CTA-2_1x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/products/sales/10-Sales-CTA-2@2x.png.webp",
+      "archivo": "recursos/2a/2a9834973a1bebe34582-10-Sales-CTA-2_2x.png.webp"
+    },
+    {
+      "url": "https://www.creatio.com/privacy-policy/sms-terms.pdf",
+      "archivo": "recursos/bc/bc268b3a877c73faef05-sms-terms.pdf"
+    },
+    {
+      "url": "https://storage.creatio.com/en/s3fs-public/favicon_1.ico",
+      "archivo": "recursos/5d/5d3e8317ac38f6d3239b-favicon_1.ico"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_csJyewVPLEWZRqFvRRNsKszEXS2W7CZc51-RfGwdqI4.css?delta=0&language=en&theme=ts_bpmonline&include=eJxljlESwyAIRC8U45EyaKixFXCEzDQ9fU3s5KdfsI9lZ2MB1cMHUJzi2AlVIaFOURr6KFSFkU3n2BAsi3OEvLsAzNiGaW17hTLDE94DsDSCkj89dDz5DWE97T-Z-dEtHajEDGUhXDMsJfNL_T-abUPCSQ81pFHWdDmnh9Sw33q_GwURU2tQb5KKBChO7ehx6cKVhLtAb-pu8QUjE2i8",
+      "archivo": "recursos/15/156e5ffbe9db8ba1ea7d-css_csJyewVPLEWZRqFvRRNsKszEXS2W7CZc51-RfGwdqI4.css"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Thin/HelveticaNeue-Thin.eot",
+      "archivo": "recursos/83/83eab57f92ef258b2f03-HelveticaNeue-Thin.eot"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Thin/HelveticaNeue-Thin.svg",
+      "archivo": "recursos/53/534cca15524b578c7c11-HelveticaNeue-Thin.svg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Thin/HelveticaNeue-Thin.ttf",
+      "archivo": "recursos/3c/3c513e1b27b2a5e1431c-HelveticaNeue-Thin.ttf"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Thin/HelveticaNeue-Thin.woff",
+      "archivo": "recursos/5d/5d1e55e96ee676679a82-HelveticaNeue-Thin.woff"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Light/HelveticaNeue-Light.eot",
+      "archivo": "recursos/e8/e87e22d3100b95bfa940-HelveticaNeue-Light.eot"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Light/HelveticaNeue-Light.svg",
+      "archivo": "recursos/82/82f628e7ea135acd479d-HelveticaNeue-Light.svg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/font/Helvetica/Light/HelveticaNeue-Light.ttf",
+      "archivo": "recursos/17/173b3018d2638dadc595-HelveticaNeue-Light.ttf"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_mckIBfNcNFdhfXcAcahIv_xTA42sCuvYcn0nu7h5iGE.css?delta=1&language=en&theme=ts_bpmonline&include=eJxljlESwyAIRC8U45EyaKixFXCEzDQ9fU3s5KdfsI9lZ2MB1cMHUJzi2AlVIaFOURr6KFSFkU3n2BAsi3OEvLsAzNiGaW17hTLDE94DsDSCkj89dDz5DWE97T-Z-dEtHajEDGUhXDMsJfNL_T-abUPCSQ81pFHWdDmnh9Sw33q_GwURU2tQb5KKBChO7ehx6cKVhLtAb-pu8QUjE2i8",
+      "archivo": "recursos/ae/ae1b635ea2b7e2fc2050-css_mckIBfNcNFdhfXcAcahIv_xTA42sCuvYcn0nu7h5iGE.css"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/2019-11/DATA_PROCESSING_ADDENDUM.pdf",
+      "archivo": "recursos/6d/6dbf1fb78d171da9ecb2-DATA_PROCESSING_ADDENDUM.pdf"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_csJyewVPLEWZRqFvRRNsKszEXS2W7CZc51-RfGwdqI4.css?delta=0&language=en&theme=ts_bpmonline&include=eJxljtEOwyAIRX-o1k9qUFnrJmCEJuu-fjYuXZY9wTm5lxALqB4-gOIUx06oCivqFKWhj0JVGNl0jg3BsjhHyLsLwIxthFLbK5QZ7vAcgqURlPzqR0fJbwjpjH8w861HulCJGcpCmDIsJfND_b-abUPCSQ81pPGs6XJOH0RMrUG9zJpqc2pHb65fWSRA-dGVhDugN3UXvAHz6ml1",
+      "archivo": "recursos/15/156e5ffbe9db8ba1ea7d-css_csJyewVPLEWZRqFvRRNsKszEXS2W7CZc51-RfGwdqI4.css"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/img/pages/gdpr/bg-left-new.png",
+      "archivo": "recursos/f0/f0001e2a59da1cf5c453-bg-left-new.png"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/img/pages/gdpr/bg-right-new.png",
+      "archivo": "recursos/dd/ddcfb86f0ae3aeeb759e-bg-right-new.png"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/img/pages/gdpr/banner.jpg",
+      "archivo": "recursos/d2/d2287194f4877764e566-banner.jpg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/img/pages/gdpr/block-gdpr.jpg",
+      "archivo": "recursos/68/68a6a9dfa709afad7ddf-block-gdpr.jpg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/img/pages/gdpr/addendum.svg",
+      "archivo": "recursos/1a/1a32f314510aeb13449d-addendum.svg"
+    },
+    {
+      "url": "https://www.creatio.com/themes/custom/ts_base/img/pages/gdpr/contact.svg",
+      "archivo": "recursos/46/4639bdf56f557b0b45e4-contact.svg"
+    },
+    {
+      "url": "https://www.creatio.com/sites/default/files/css/css_MKfVG2SOlX7qLboalLf6s8BcKiSRejDnBvrJZexSDXQ.css?delta=1&language=en&theme=ts_bpmonline&include=eJxljtEOwyAIRX-o1k9qUFnrJmCEJuu-fjYuXZY9wTm5lxALqB4-gOIUx06oCivqFKWhj0JVGNl0jg3BsjhHyLsLwIxthFLbK5QZ7vAcgqURlPzqR0fJbwjpjH8w861HulCJGcpCmDIsJfND_b-abUPCSQ81pPGs6XJOH0RMrUG9zJpqc2pHb65fWSRA-dGVhDugN3UXvAHz6ml1",
+      "archivo": "recursos/ec/eca24a6671f8b17aa2a0-css_MKfVG2SOlX7qLboalLf6s8BcKiSRejDnBvrJZexSDXQ.css"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css",
+    "https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js",
+    "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css",
+    "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/00-news-banner-twin@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/00-news-banner-twin@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/amd-247.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/banco-247.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/bsn-sport-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/coca-cola-247.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/colgate-247.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/ent-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/herheys-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/metlife-247.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/otp-bank-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/raiffeisne-bank-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/societe-generale-247.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-01/university-of-strathclyde-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-02/dunapack-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2024-09/pittsburghpa.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2025-10/Auchan_600x600_0.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2025-10/City_of_Boston_600x600_0.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2025-10/Howdens_600x600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2025-10/Nasdaq_600x600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/2025-11/banco-int-600.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/glossary/og/en.jpg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/customers/customers-menu-title.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/25-country.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-01@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-01@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-02@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-02@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-03@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-03@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-04@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-04@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-05@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-05@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-06@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-06@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-07@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-07@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-08@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-08@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-09@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-09@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-10@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-10@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-11@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-11@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-13@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-13@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-14@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-14@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-15@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-15@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-16@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-16@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-17@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-17@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-19@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-19@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-21@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-21@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-22@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-22@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-23@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-23@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-24@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/employees/employee-24@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-01@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-01@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-02@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-02@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-03@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-03@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-04@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-04@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-05@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-05@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-06@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-06@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-07@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-07@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-08@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-08@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-09@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-09@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-10@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-10@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-11@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-11@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-12@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-12@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-13@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-13@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-14@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-14@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-15@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-15@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-16@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-16@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-17@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-17@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-18@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-18@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-19@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-19@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-20@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-20@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-21@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-21@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-22@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-22@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-23@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-23@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-24@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-24@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-25@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-25@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-26@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-26@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-27@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partner-27@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/main-menu/v3/partners/partners-text.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/ai/ai-trust-and-governance/footer-CTA-screen-1@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/ai/ai-trust-and-governance/footer-CTA-screen-1@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/ai/ai-trust-and-governance/footer-CTA-screen-3@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/ai/ai-trust-and-governance/footer-CTA-screen-3@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/academy-logo.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/based_on-person-x1.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/based_on-person-x2.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/certificate-x1.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/certificate-x2.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/icons/articles.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/icons/practice.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/icons/quizzes.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/icons/videos.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/main-x1.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/main-x2.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/og.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook-course/udemy-logo.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook/for_whom/1.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook/for_whom/2.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook/for_whom/3.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook/for_whom/4.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/no-code/playbook/for_whom/5.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/1200%D1%85628_fb_podcasts %E2%80%93 2.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/CastBox.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/Jason-Miller.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/Overcast.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/Pocket-Casts.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/apple.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/castro.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/google.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/iheart.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/listen.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/podbean.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/spotify.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/podcast/tune.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/sales/10-Sales-CTA-1@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/sales/10-Sales-CTA-1@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/sales/10-Sales-CTA-2@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/sales/10-Sales-CTA-2@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/sales/10-Sales-CTA-3-1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/sales/10-Sales-CTA-3-2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/studio/footer-CTA-screen-2_1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/products/studio/footer-CTA-screen-2_2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/01-Contact-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/02-lead-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/03-sales-auto-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/04-marketing-auto-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/05-customer-service-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/06-ai-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/07-agents-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/08-workflow-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/09-reporting-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/10-docs-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/11-marketplace-icon.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/Creatio-What-is-CRM-OG.jpg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/New-Era-Agentic-CRM-baner-img@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/New-Era-Agentic-CRM-baner-img@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/New-Era-CRM-side-banner-img@1x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/New-Era-CRM-side-banner-img@2x.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/pages/what_is_crm/v4/squash.svg",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/styles/customer/public/2024-09/1-united.png",
+    "https://d3a7ykdi65m4cy.cloudfront.net/en/s3fs-public/styles/webp/public/pages/products/sales/10-Sales-CTA-3-1x.png.webp",
+    "https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap",
+    "https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap",
+    "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap&subset=cyrillic",
+    "https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800&display=swap&subset=cyrillic",
+    "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirk-VQ.ttf",
+    "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-U1Ug.ttf",
+    "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4kaVc.ttf",
+    "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4kaVc.ttf",
+    "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4kaVc.ttf",
+    "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4kaVc.ttf",
+    "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVc.ttf",
+    "https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0B4kaVc.ttf",
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+    "https://www.bpmonline.com/page/sites/default/files/2019-06/iPhone%20X-XS%20%E2%80%93%201.png",
+    "https://www.bpmonline.com/sites/default/files/2019-07/Group%205339.png",
+    "https://www.googletagmanager.com/gtag/js?id=AW-982412636",
+    "https://www.googletagmanager.com/ns.html?id=GTM-5FQ8V7"
+  ],
+  "errores": [
+    {
+      "url": "https://www.creatio.com/sites/all/themes/ts_bootstrap_subtheme/img/download-agreements-ru.png",
+      "error": "404 Client Error: Not Found for url: https://www.creatio.com/sites/all/themes/ts_bootstrap_subtheme/img/download-agreements-ru.png"
+    }
+  ],
+  "bytes": 20087151
+}
