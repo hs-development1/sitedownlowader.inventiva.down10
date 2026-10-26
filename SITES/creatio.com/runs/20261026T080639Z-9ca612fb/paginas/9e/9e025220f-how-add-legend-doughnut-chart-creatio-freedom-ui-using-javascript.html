@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script nonce="11c7321da723887a7c3c0e302c54c537">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+          n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P6XJG79L');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8"/>
+<meta content="Drupal 11 (https://www.drupal.org)" name="Generator"/>
+<meta content="width" name="MobileOptimized"/>
+<meta content="true" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../recursos/d7/d7e5feddfb8a84fc9dd1-favicon.ico" rel="icon" type="image/vnd.microsoft.icon"/>
+<link href="https://community.creatio.com/questions/how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript" rel="canonical"/>
+<link href="https://community.creatio.com/node/42333" rel="shortlink"/>
+<title>How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript? | Community Creatio</title>
+<link rel="stylesheet"/>
+<link rel="stylesheet"/>
+<link href="../../recursos/34/3450febe2a5ba7e49454-css_X2IjgDnd2d_P8o7XaI8J3paSDlyNLAnYwv2A3NNqIL4.css" media="all" rel="stylesheet"/>
+<link href="../../recursos/d3/d36f8a2b0e9a9e97a44d-css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css" media="all" rel="stylesheet"/>
+<link href="../../recursos/81/817dfb96eece02b9fc7a-css_0xaG-pDg8fUWTa9E6ALefbWQk180Cn29gQqPB9H1q0g.css" media="print" rel="stylesheet"/>
+</head>
+<body class="path-node page-node-type-question page-alias-questions-how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript zone-com">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+<div class="creatio-page d-flex flex-column justify-content-between">
+<div class="creatio-page-content">
+<header role="banner">
+<div class="header-desktop d-none d-lg-block">
+<div class="creatio-region creatio-top">
+<div class="container"> <div class="region region-top">
+<div class="block block-simple-block block-simple-blocksearch-form-top" id="block-searchformtop">
+<div class="search-block-form contextual-region block block-search container-inline" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+<form accept-charset="UTF-8" action="/search" data-drupal-form-fields="edit-keys" data-once="form-updated" id="search-block-form" method="get">
+<div class="js-form-item form-item js-form-type-search form-type-search js-form-item-search-api-fulltext form-item-search-api-fulltext form-no-label"><input class="form-search" data-drupal-selector="edit-keys" id="edit-keys" maxlength="128" name="search_api_fulltext" placeholder="Search" size="15" title="Enter the terms you wish to search for." type="search" value=""/></div>
+<div class="form-actions js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions--2"><input class="button js-form-submit form-submit" data-drupal-selector="edit-submit" id="edit-submit" type="submit" value="Search"/></div>
+</form>
+<div class="search-toggle"> </div>
+</div>
+</div>
+<nav aria-labelledby="block-vneshnieresursyru-menu" class="block block-menu navigation menu--external-sites-ru" id="block-vneshnieresursyru" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a href="../../index.html" id="community-go-creatio" target="_blank">Creatio</a>
+</li>
+<li class="menu-item">
+<a href="https://www.bank.ai/" id="community-go-bankai" target="_blank">Bank.AI</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-academy" target="_blank">Academy</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-marketplace" target="_blank">Marketplace</a>
+</li>
+</ul>
+</nav>
+<nav aria-labelledby="block-creatio-account-menu-menu" class="block block-menu navigation menu--account" id="block-creatio-account-menu" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a data-drupal-link-system-path="user/login" href="/user/login">Log in</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="creatio-region creatio-header">
+<div class="container"> <div class="region region-header">
+<div class="block-basic block block-block-content block-block-content8a62afa0-2cd9-473d-8414-407006a04718" id="block-logo-2">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="../../index.html"><img src="../../recursos/57/57fe9c46747fcf364df1-logo.svg" width="266"/> </a></p>
+</div>
+</div>
+<nav aria-labelledby="block-osnovnayanavigaciya-menu" class="block block-menu navigation menu--main" id="block-osnovnayanavigaciya" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item menu-item--collapsed">
+<a data-drupal-link-system-path="&lt;front&gt;" href="../../index.html">Feed</a>
+</li>
+<li class="menu-item">
+<a data-drupal-link-system-path="members" href="../61/619a2f3f9-members.html" id="community-selection-members">Members</a>
+</li>
+</ul>
+</nav>
+<div class="block-basic block block-block-content block-block-contentab28d27f-e421-46f6-ac78-f6f2fab0b248" id="block-addpostbuttonfornotloggedusers-2">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="bpmonline-add-post-button-not-login" href="/user/login">+<span> Add post</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-mobile d-block d-lg-none">
+<div class="creatio-region creatio-mobile-top">
+<div class="container">
+<div class="creatio-mobile-menu-toggle"><span></span></div>
+<div class="region region-mobile-top">
+<div class="block-basic block block-block-content block-block-content876fc317-53e0-4c33-861b-20a8aed106cf" id="block-mobileheaderlogo">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="logo" href="../../index.html"><img src="../../recursos/5a/5a156a5242624e09cd34-logo-white.svg"/> </a></p>
+</div>
+</div>
+<nav aria-labelledby="block-menyuuchyotnoyzapisipolzovatelya-menu" class="block block-menu navigation menu--account" id="block-menyuuchyotnoyzapisipolzovatelya" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a data-drupal-link-system-path="user/login" href="/user/login">Log in</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="creatio-region creatio-mobile-header">
+<div class="container"> <div class="region region-mobile-header">
+<nav aria-labelledby="block-osnovnayanavigaciya-2-menu" class="block block-menu navigation menu--main" id="block-osnovnayanavigaciya-2" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item menu-item--expanded">
+<a data-drupal-link-system-path="&lt;front&gt;" href="../../index.html">Feed</a>
+<ul class="menu">
+<li class="menu-item">
+<a data-drupal-link-query='{"type":"article"}' data-drupal-link-system-path="&lt;front&gt;" href="../46/4605d6160-index.html" id="community-section-articles">Articles</a>
+</li>
+<li class="menu-item">
+<a data-drupal-link-query='{"type":"idea"}' data-drupal-link-system-path="&lt;front&gt;" href="../21/21b4330e4-index.html" id="community-section-ideas">Ideas</a>
+</li>
+<li class="menu-item">
+<a data-drupal-link-query='{"type":"question"}' data-drupal-link-system-path="&lt;front&gt;" href="../05/056bc2dcd-index.html" id="community-section-questions">Questions</a>
+</li>
+</ul>
+</li>
+<li class="menu-item">
+<a data-drupal-link-system-path="members" href="../61/619a2f3f9-members.html" id="community-selection-members">Members</a>
+</li>
+</ul>
+</nav>
+<nav aria-labelledby="block-vneshnieresursyru-2-menu" class="block block-menu navigation menu--external-sites-ru" id="block-vneshnieresursyru-2" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a href="../../index.html" id="community-go-creatio" target="_blank">Creatio</a>
+</li>
+<li class="menu-item">
+<a href="https://www.bank.ai/" id="community-go-bankai" target="_blank">Bank.AI</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-academy" target="_blank">Academy</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-marketplace" target="_blank">Marketplace</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="creatio-region creatio-content" role="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8 creatio-cont">
+<div class="region region-messages">
+<div class="hidden" data-drupal-messages-fallback=""></div>
+</div>
+<div class="region region-content">
+<div class="block block-system block-system-main-block" id="block-creatio-content">
+<div class="row bs-2col-bricked node node--type-question node--view-mode-full">
+<div class="col-sm-12 bs-region bs-region--top">
+<div class="group-top">
+<div class="field field--name-bundle-fieldnode field--type-ds field--label-hidden field__item">Question</div>
+<div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+<div class="field__item"><a href="../fc/fc815f5bb-howtoaddalegendtoadoughnutchartincreatiofreedomuiusingjavascript.html" hreflang="en">How_to_Add_a_Legend_to_a_Doughnut_Chart_in_Creatio_Freedom_UI_Using_JavaScript?</a></div>
+<div class="field__item"><a href="../f7/f75498eb1-studiocreatioenterpriseedition.html" hreflang="en">Studio_Creatio_enterprise_edition</a></div>
+<div class="field__item"><a href="../16/16938da2b-8-0.html" hreflang="en">8.0</a></div>
+</div>
+</div>
+<div class="field field--name-node-title field--type-ds field--label-hidden field__item"><h1>
+  How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?
+</h1>
+</div>
+<div class="group-info">
+<div class="field field--name-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="../cb/cbb5ec6cc-205876.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/90/906f88373b71c4e001a4-woman2.png" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="../cb/cbb5ec6cc-205876.html" hreflang="en">Chetana Gharat</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-node-post-date field--type-ds field--label-hidden field__item">11:22 Oct 10, 2026</div>
+</div>
+</div>
+<div class="col-sm-12 bs-region bs-region--middle">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?</p>
+<p>Hi Creatio Community,</p>
+<p>I'm working on a <strong>doughnut chart in Creatio Freedom UI</strong> and would like to display a legend below the chart. However, the chart configuration available in the Freedom UI designer does not provide an option to enable the legend for a doughnut chart.</p>
+<p>I would like to explore whether this can be achieved through a client-side JavaScript handler without modifying the underlying chart configuration or affecting the chart's existing functionality.</p>
+<ul>
+<li><strong>Chart element:</strong> HTML <code></code> inside the <code>ts-chart</code> component</li>
+<li><strong>Requirement:</strong> Display a custom legend below the doughnut chart, showing each series' actual color and label.</li>
+</ul>
+<p><strong>Questions:</strong></p>
+<ol>
+<li>Is there a supported way to enable or configure a legend for a doughnut chart in Creatio Freedom UI?</li>
+<li>If the designer does not support this option, can a custom legend be added using a Freedom UI client-side JavaScript handler?</li>
+<li>How can we access the chart's actual labels, dataset values, and colors from the <code>ts-chart</code> component or its underlying chart configuration?</li>
+<li>Is there a recommended or supported API for accessing the chart instance without relying on undocumented internal properties?</li>
+</ol>
+<p>My preference is to display the legend below the doughnut chart, using the existing chart labels and colors, while keeping the implementation scoped to this widget and preserving its existing interactions.</p>
+<p>Any guidance, examples, or recommended approaches would be appreciated.</p>
+<p>Thank you!</p>
+</div>
+<div class="container-statistics">
+<div class="group-like">
+<div class="vote-widget-wrapper">
+<div class="vote-widget">
+<div class="vote-like type-node" id="like-container-node-42333">
+<a data-entity-id="42333" data-entity-type="node" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+<div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"><p>Like</p>
+</div>
+</div>
+<div class="flag flag-bookmark js-flag-bookmark-42333 action-flag">
+<span></span>
+</div>
+<div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"><div class="comment-count"><span class="count">1</span> <span> comments</span></div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 bs-region bs-region--bottom">
+<section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper">
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="../70/70d181e41-177760.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="../70/70d181e41-177760.html" hreflang="en">Oleg Drobina</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">11:58 Oct 12, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94335" tabindex="0">
+<a data-entity-id="94335" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p dir="ltr">Hi,</p>
+<p dir="ltr">Thank you for the detailed question. Here are answers to each point, followed by the approach we recommend.</p>
+<p dir="ltr"><strong>1. Is there a supported way to enable a legend for a doughnut chart?</strong></p>
+<p dir="ltr">Unfortunately, no. This is a current platform limitation, not a setting the Freedom UI Designer is missing.</p>
+<ul dir="ltr">
+<li>The <strong>Show legend</strong> option is available only for Spline, Line, Bar, Area, Column and Scatter charts. Pie and doughnut charts don’t support a legend.</li>
+<li>If you add a <code>legend</code> setting to the doughnut series by editing the page schema, the page saves it, but no legend appears. The chart turns off the legend for pie, doughnut, funnel and waterfall charts.</li>
+<li>You can’t set slice colors either. The series <code>color</code> property is ignored for doughnut charts, and slices take their colors from the built-in palette.</li>
+</ul>
+<p dir="ltr">What doughnut charts do show is a <strong>“label – NN%”</strong> data label next to each slice by default. Long labels wrap. Labels that would overlap are hidden, so very small slices may have no label. The <code>dataLabel.display</code> setting has no effect on doughnut charts.</p>
+<p dir="ltr"><strong>2. Can a custom legend be added with client-side code?</strong></p>
+<p dir="ltr">Yes, as a <strong>separate element placed directly under the chart</strong>. It can’t be drawn inside the chart, because the chart is a single <code>&lt;canvas&gt;</code> with no extension point for that. This approach leaves the chart widget unchanged, so drilldown, tooltips, data labels and keyboard navigation keep working.</p>
+<p dir="ltr"><strong>3. How can I get the chart’s labels, values and colors?</strong></p>
+<p dir="ltr"><em>Labels and values.</em> When a chart series gets its data through the standard data source (<code>data.providing</code>), the platform creates a page attribute named <code><strong>&lt;ChartElementName&gt;_SeriesData</strong></code>. For example, a chart element named <code>MyDoughnut</code> gets <code>MyDoughnut_SeriesData</code>. The attribute holds one array per series, and each item looks like this:</p>
+<pre>{
+  grouping:    { value, displayValue }, // displayValue is the slice label
+  aggregation: { value }                // value is the slice value
+}</pre><p> </p>
+<p dir="ltr">Please keep in mind:</p>
+<ul dir="ltr">
+<li>The platform generates this attribute and it isn’t part of the documented API, so it may change in future versions.</li>
+<li>It’s created only when the chart element has no explicit <code>seriesData</code> binding.</li>
+<li>It’s filled asynchronously, so <code>await</code> it. It holds empty arrays until the data has loaded.</li>
+</ul>
+<p dir="ltr"><em>Colors.</em> No API returns the colors the chart draws. Doughnut slices take colors from the built-in palette by slice index, starting again after the last color:</p>
+<pre>#0058EF, #F9307F, #08857E, #F86700, #4F43C2, #20A959, #009DE3, #FF4013, #B87CCF, #22AC14,
+#247EE5, #FF602E, #9641A9, #0B6A32, #E00022, #1566B9, #BE1B5A, #7848EE, #0D2E4E</pre><p> </p>
+<p dir="ltr">A legend that uses this list matches the chart today. The palette is an internal detail, though, so check the legend after upgrades.</p>
+<p dir="ltr"><em>Order.</em> If the chart has a sort order (<code>seriesOrder</code>), sort your legend items the same way before assigning colors. Otherwise the colors won’t match the slices.</p>
+<p dir="ltr"><strong>4. Is there a supported API to get the chart instance?</strong></p>
+<p dir="ltr">No. <code>@creatio-devkit/common</code> has no API that returns a page element’s component or the underlying Chart.js instance. The chart widget exposes only its configuration inputs, and clicks on the chart are handled inside the widget without reaching the page.</p>
+<p dir="ltr">Reading the Chart.js instance from the component or the DOM depends on internal details, and we don’t recommend it. <code>Chart.getChart(canvas)</code> usually doesn’t work from custom code anyway. Custom code loads its own copy of Chart.js, which doesn’t know about the chart the widget created.</p>
+<p>Recommended approach</p>
+<p dir="ltr">Add a legend element under the chart and leave the chart widget as it is. There are three options, from simplest to most flexible.</p>
+<p>Option 1. Text legend with a label (no custom component)</p>
+<p dir="ltr">Add a <code>crt.Label</code> under the chart and fill it from a handler:</p>
+<pre>viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
+  {
+    "operation": "insert",
+    "name": "MyDoughnutLegend",
+    "values": {
+      "type": "crt.Label",
+      "caption": "$MyDoughnutLegendText",
+      "labelType": "body",
+      "visible": true
+    },
+    "parentName": "&lt;container that holds MyDoughnut&gt;",
+    "propertyName": "items",
+    "index": 1
+  }
+]/**SCHEMA_VIEW_CONFIG_DIFF*/,
+viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
+  {
+    "operation": "merge",
+    "path": ["attributes"],
+    "values": {
+      "MyDoughnutLegendText": {}
+    }
+  }
+]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
+handlers: /**SCHEMA_HANDLERS*/[
+  {
+    request: "crt.HandleViewModelAttributeChangeRequest",
+    handler: async (request, next) =&gt; {
+      if (request.attributeName === "MyDoughnut_SeriesData") {
+        const seriesData = await request.$context.MyDoughnut_SeriesData;
+        const items = seriesData?.[0] ?? [];
+        request.$context.MyDoughnutLegendText = items
+          .map(item =&gt; `${item.grouping.displayValue}: ${item.aggregation.value}`)
+          .join("  |  ");
+      }
+      return next?.handle(request);
+    }
+  }
+]/**SCHEMA_HANDLERS*/,</pre><p> </p>
+<p dir="ltr">This option can’t show colored markers. Please check on your Creatio version that the change request fires for the generated attribute.</p>
+<p>Option 2. Legend with colored markers (custom view element)</p>
+<p dir="ltr">Create a small Angular component in a remote module (see “Develop a custom UI component using remote module” on Creatio Academy):</p>
+<pre>import { Component, Input, ViewEncapsulation } from '@angular/core';
+import { CrtInput, CrtViewElement } from '@creatio-devkit/common';
+
+const PALETTE = [
+  '#0058EF', '#F9307F', '#08857E', '#F86700', '#4F43C2', '#20A959', '#009DE3',
+  '#FF4013', '#B87CCF', '#22AC14', '#247EE5', '#FF602E', '#9641A9', '#0B6A32',
+  '#E00022', '#1566B9', '#BE1B5A', '#7848EE', '#0D2E4E'
+];
+
+interface LegendItem {
+  label: string;
+  value: unknown;
+}
+
+@Component({
+  selector: 'usr-chart-legend',
+  template: `
+    &lt;div class="usr-legend"&gt;
+      &lt;span *ngFor="let item of legend; let i = index" class="usr-legend-item"&gt;
+        &lt;i [style.background]="color(i)"&gt;&lt;/i&gt;{{ item.label }} ({{ item.value }})
+      &lt;/span&gt;
+    &lt;/div&gt;`,
+  styles: [`
+    .usr-legend { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; }
+    .usr-legend-item { display: inline-flex; align-items: center; }
+    .usr-legend-item i { width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+  `],
+  encapsulation: ViewEncapsulation.Emulated
+})
+@CrtViewElement({
+  selector: 'usr-chart-legend',
+  type: 'usr.ChartLegend'
+})
+export class UsrChartLegendComponent {
+  public legend: LegendItem[] = [];
+
+  @Input()
+  @CrtInput()
+  public set items(value: any) {
+    Promise.resolve(value).then(data =&gt; {
+      this.legend = (data?.[0] ?? []).map((item: any) =&gt; ({
+        label: item.grouping?.displayValue,
+        value: item.aggregation?.value
+      }));
+    });
+  }
+
+  public color(index: number): string {
+    return PALETTE[index % PALETTE.length];
+  }
+}</pre><p> </p>
+<p dir="ltr">Register the component in the remote module the standard way. Then place it under the chart on the Freedom UI page:</p>
+<pre>{
+  "operation": "insert",
+  "name": "MyDoughnutLegend",
+  "values": {
+    "type": "usr.ChartLegend",
+    "items": "$MyDoughnut_SeriesData"
+  },
+  "parentName": "&lt;container that holds MyDoughnut&gt;",
+  "propertyName": "items",
+  "index": 1
+}</pre><p> </p>
+<p>Option 3. Load the legend data yourself (fully supported API)</p>
+<p dir="ltr">If you don’t want to depend on the generated <code>_SeriesData</code> attribute, load the same aggregated data with <code>sdk.Model</code>. Pass the result to the label from Option 1 or the component from Option 2:</p>
+<pre>const model = await sdk.Model.create("Account");
+const rows = await model.load({
+  attributes: [
+    { name: "Industry", path: "Industry" },
+    {
+      name: "Count",
+      path: "Id",
+      type: "function",
+      functionConfig: {
+        type: "aggregation",
+        aggregation: "Count",
+        aggregationEval: "all"
+      }
+    }
+  ],
+  parameters: [
+    /* the same filters the chart uses */
+  ]
+});</pre><p> </p>
+<p dir="ltr">Use the same grouping column, filters and sort order as the chart so the legend rows match the slices.</p>
+<p>Limitations</p>
+<ul dir="ltr">
+<li>A custom legend doesn’t react to the chart’s interactive state, such as a hovered or drilled-down slice.</li>
+<li>The color palette and the <code>&lt;ChartElementName&gt;_SeriesData</code> attribute are internal details that may change in future versions. Please check the legend after upgrades.</li>
+</ul>
+<p>Registering the idea</p>
+<p dir="ltr">We agree that a built-in legend for pie and doughnut charts would be useful, and adding one needs a platform change. Please send this idea to <strong><a href="mailto:support@creatio.com">support@creatio.com</a></strong> so it’s registered with the R&amp;D team and considered for the product roadmap. Including your use case, such as “legend below the doughnut chart with series colors and labels”, will help us prioritize it.</p>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../46/46b35a879-94335.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row show-all"><span>Show all comments</span></div>
+<div class="comment-user-login-block">
+<a href="../8d/8d5ad75f5-login.html">Log in</a> or <a href="../e2/e2e2e2a60-register.html">register</a> to comment
+    </div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="col-12 col-lg-4 sidebar-second d-none d-lg-block" role="complementary">
+<div class="region region-sidebar-second">
+<div class="block block-ts-custom block-live-feeds" id="block-livefeeds">
+<div class="block-title">Live Feeds</div>
+<div class="feed-items">
+<div class="feed-scroll">
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../0b/0b68b5e77-185515.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../0b/0b68b5e77-185515.html">Pavel Petrov</a></div>
+<div class="feed-desc">published</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../44/44421dde1-richtext-field-editor-does-not-allow-you-specify-link-character.html" title='RichText field editor does not allow you to specify a link with the "#" character.'>RichText field editor does not allow you to specify a link with the "#" character.</a>
+</div>
+<div class="feed-date">19 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../40/4017c9543-218157.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../40/4017c9543-218157.html">Olivia Michel Bushra</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../3f/3fd1ada25-sms-csat.html" title="SMS &amp; CSAT">SMS &amp; CSAT</a>
+</div>
+<div class="feed-date">18 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../40/4017c9543-218157.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../40/4017c9543-218157.html">Olivia Michel Bushra</a></div>
+<div class="feed-desc">commented on the publication</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../28/285caa71c-twilio-sms-pro-integration-creatio.html" title="TWILIO SMS PRO INTEGRATION FOR CREATIO">TWILIO SMS PRO INTEGRATION FOR CREATIO</a>
+</div>
+<div class="feed-date">18 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../ba/ba9c2ab5f-212400.html">
+<img src="../../recursos/c5/c537eb2130a603ce290a-man1.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../ba/ba9c2ab5f-212400.html">Artem Ivzhenko</a></div>
+<div class="feed-desc">published</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../90/90db07a6e-whats-best-architectural-approach-building-package-hierarchy-creatio-p.html" title="What's the best architectural approach to building a package hierarchy for a Creatio project?">What's the best architectural approach to building a package hierarchy for a Creatio project?</a>
+</div>
+<div class="feed-date">15 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3f/3ff454875-216697.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3f/3ff454875-216697.html">Maksymilian Majchrzyk</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../11/11afb81fd-integration-active-directory-entraid-group-users.html" title="Integration with Active Directory (EntraID) for group of users">Integration with Active Directory (EntraID) for group of users</a>
+</div>
+<div class="feed-date">15 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../ba/ba9c2ab5f-212400.html">
+<img src="../../recursos/c5/c537eb2130a603ce290a-man1.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../ba/ba9c2ab5f-212400.html">Artem Ivzhenko</a></div>
+<div class="feed-desc">commented on the publication</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../10/10d18fd8c-framework-automated-testing-creatio-platform.html" title="Framework for automated testing of the Creatio platform.">Framework for automated testing of the Creatio platform.</a>
+</div>
+<div class="feed-date">14 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../fc/fc20d93ce-218602.html">
+<img src="../../recursos/96/964522c07903c0a58f5a-Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../fc/fc20d93ce-218602.html">Ivanna </a></div>
+<div class="feed-desc">published</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../36/364c0d444-new-creatio-marketplace-syntech-availability-matrix-creatio.html" title="New on Creatio Marketplace: Syntech Availability Matrix for Creatio">New on Creatio Marketplace: Syntech Availability Matrix for Creatio</a>
+</div>
+<div class="feed-date">14 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3f/3ff454875-216697.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3f/3ff454875-216697.html">Maksymilian Majchrzyk</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../8a/8a24e0f0e-different-uis-mobile-app-employee-and-external-user.html" title="Different UI's in mobile app for employee and for external user">Different UI's in mobile app for employee and for external user</a>
+</div>
+<div class="feed-date">14 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="9e025220f-how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript.html" title="How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?">How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?</a>
+</div>
+<div class="feed-date">12 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../1f/1f125f13f-214961.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../1f/1f125f13f-214961.html">Krzysztof</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../e2/e2a391797-esq-transactions.html" title="ESQ Transactions">ESQ Transactions</a>
+</div>
+<div class="feed-date">12 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../e2/e2a391797-esq-transactions.html" title="ESQ Transactions">ESQ Transactions</a>
+</div>
+<div class="feed-date">11 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../a1/a1ccb50d1-204699.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../a1/a1ccb50d1-204699.html">Serhii Sermakshev</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../bb/bb2b4d88c-feedom-ui-sdk-comparison-type.html" title="Feedom UI SDK Comparison Type ">Feedom UI SDK Comparison Type </a>
+</div>
+<div class="feed-date">11 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../cb/cbb5ec6cc-205876.html">
+<img src="../../recursos/90/906f88373b71c4e001a4-woman2.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../cb/cbb5ec6cc-205876.html">Chetana Gharat</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="9e025220f-how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript.html" title="How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?">How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?</a>
+</div>
+<div class="feed-date">10 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../1f/1f125f13f-214961.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../1f/1f125f13f-214961.html">Krzysztof</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../e2/e2a391797-esq-transactions.html" title="ESQ Transactions">ESQ Transactions</a>
+</div>
+<div class="feed-date">9 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../df/df72fa7d8-business-process-wont-run-open-specific-page.html" title="Business Process won't run open specific  page">Business Process won't run open specific  page</a>
+</div>
+<div class="feed-date">9 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../92/929b44277-219736.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../92/929b44277-219736.html">Kevin Samuel</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../df/df72fa7d8-business-process-wont-run-open-specific-page.html" title="Business Process won't run open specific  page">Business Process won't run open specific  page</a>
+</div>
+<div class="feed-date">8 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../b9/b95959a2e-how-can-i-add-data-source-mobile-page.html" title="How can I add data source in Mobile Page ?">How can I add data source in Mobile Page ?</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3e/3eb17cd48-217530.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3e/3eb17cd48-217530.html">Dedi Sadikin</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../3e/3e16bea76-why-datamodel-already-checked-enabled-live-update-form-page-it-not-dir.html" title="Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)">Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3e/3eb17cd48-217530.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3e/3eb17cd48-217530.html">Dedi Sadikin</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../b9/b95959a2e-how-can-i-add-data-source-mobile-page.html" title="How can I add data source in Mobile Page ?">How can I add data source in Mobile Page ?</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../3e/3e16bea76-why-datamodel-already-checked-enabled-live-update-form-page-it-not-dir.html" title="Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)">Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3e/3eb17cd48-217530.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3e/3eb17cd48-217530.html">Dedi Sadikin</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../3e/3e16bea76-why-datamodel-already-checked-enabled-live-update-form-page-it-not-dir.html" title="Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)">Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+</div>
+<footer role="contentinfo">
+<div class="creatio-region creatio-footer">
+<div class="container">
+<div class="region region-footer">
+<div class="block-basic block block-block-content block-block-content6ad5c782-9fe2-4a86-86a6-ad5f0411c76d" id="block-creatio-futerru">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="footer">
+<div class="footer-left">
+<div class="footer-accelerate"> </div>
+<ul class="footer-socials">
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_fb" href="https://www.facebook.com/CreatioCompany" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_in" href="https://www.linkedin.com/company/creatioglobal" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_yt" href="https://www.youtube.com/c/creatio" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_tw" href="https://www.twitter.com/Creatio_Global" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_ow" href="https://www.owler.com/company/Creatio" target="_blank"> </a></li>
+</ul>
+</div>
+<div class="footer-links">
+<div class="footer-title">Connect with us</div>
+<div class="footer-content">
+<div class="footer-items">
+<div class="footer-item"><a class="footer__link footer__link_phone" href="tel:+16177657997">USA: +1 617 765 7997</a></div>
+<div class="footer-item"><a class="footer__link footer__link_phone" href="tel:+442033840040">UK: +44 20 3384 0040</a></div>
+<div class="footer-item"><a class="footer__link footer__link_phone" href="tel:+61261452888">Australia: +61 261 452 888</a></div>
+</div>
+<div class="footer-items">
+<div class="footer-item"><a class="footer__link footer__link_email" href="mailto:info@creatio.com">info@creatio.com</a></div>
+<div class="footer-item"><a class="footer__link footer__link_email" href="mailto:support@creatio.com">support@creatio.com</a></div>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+#modal.edit-field #user-avatar .thumbnail{
+padding-bottom: 0;
+margin-bottom: 10px;
+}
+</style></div>
+</div>
+</div>
+</div>
+</div>
+<div class="creatio-region creatio-copyright">
+<div class="container">
+<div class="region region-copyright">
+<div class="block-basic block block-block-content block-block-content49e5b331-5878-4954-928c-70a0a63a000d" id="block-copyright-2">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>© 2026 Creatio. All rights reserved. <span>|</span> <a href="../2e/2e080a2ce-privacy-policy.html" target="_blank">Privacy Policy</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="creatio-buttons d-block d-lg-none">
+<div class="region region-buttons">
+<div class="block-basic block block-block-content block-block-contentab28d27f-e421-46f6-ac78-f6f2fab0b248" id="block-addpostbuttonfornotloggedusers-3">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="bpmonline-add-post-button-not-login" href="/user/login">+<span> Add post</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-drupal-selector="drupal-settings-json" type="application/json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/42333","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxlj21uwzAIhi_khiNZOCYuK8aVIV290y9WU6na_qDn_UAIzNkb6gA8Ydl6Uw-roNmAhEZvrmSGhSysrVZSh9z3O8pyyksalwfTN_Wj0Am09YrCP8d-J3RucRZ3ZR9QpCWUsAkWmGMR1tsfGfELn0H4RhE1x8w2GRJd8cGt_094bWpBSxQuV0_tCR8cbJhTfT3kFhOZd7rLgEwb7uLTzOgoOKjDp5iJcJre2nb1Pl7OcfLc_QVEDX6j","theme":"creatio","theme_token":null},"ajaxTrustedUrl":[],"field_group":{"html_element":{"mode":"full","context":"view","settings":{"label":"Top","classes":"group-top","id":"","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"e37786633a9c0a6f6f07565e43c30e80b4e9d857fed5c4e353f172321e6ccd6f"}}</script>
+<script src="../../recursos/43/431eb73bf298573c002f-jquery.min.js"></script>
+<script src="../../recursos/e4/e46d6b41cf03ef779f8b-js_h34jYDlm0DccpoCz4BEGyslCs455U0fiGnVHWKtPsJg.js"></script>
+<script src="../../recursos/56/563de8f7f95211f3607a-index.js"></script>
+<script src="../../recursos/9c/9c0ae44d304cd425c15e-js_MrUmK1pZ9bjYCMy9ya6qJ38NGYuK47qcz-GzCuCwkI8.js"></script>
+
+<script src="../../recursos/6d/6df986dbc3e847948046-js_0wKuckJa-OPazGwWMZW2xkdVL9YV3TnhX1IWqf9hR9M.js"></script>
+<div class="modal edit-field" id="modal">
+<div class="inner-flex">
+<h2></h2>
+<div class="elements">
+</div>
+<div class="bottom">
+<button class="close" id="close">Cancel</button>
+<button class="modal-submit">Save</button>
+</div>
+</div>
+</div>
+<div class="modal-overlay"></div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "sitio": "https://creatio.com/",
+  "fecha": "2026-10-26T12:00:11.039405+00:00",
+  "paginas": [
+    "https://community.creatio.com/questions/how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript",
+    "https://community.creatio.com/user/214961",
+    "https://community.creatio.com/questions/esq-transactions",
+    "https://community.creatio.com/user/204699",
+    "https://community.creatio.com/questions/feedom-ui-sdk-comparison-type",
+    "https://community.creatio.com/user/205876",
+    "https://community.creatio.com/questions/business-process-wont-run-open-specific-page",
+    "https://community.creatio.com/user/219736",
+    "https://community.creatio.com/questions/how-can-i-add-data-source-mobile-page",
+    "https://community.creatio.com/user/217530"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 2,
+  "fotografias_descargadas": 2,
+  "bytes_fotografias": 159569,
+  "recursos_pendientes": 0,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 159569,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_900.png",
+      "archivo": "recursos/57/5779aacbad6bb90e2400-image_900.png"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/picture/Ryan-June2018-smaller.png",
+      "archivo": "recursos/3d/3dc65a25fc7f095ea4e8-Ryan-June2018-smaller.png"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic",
+    "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic",
+    "https://static.addtoany.com/menu/page.js",
+    "https://www.googletagmanager.com/ns.html?id=GTM-P6XJG79L"
+  ],
+  "errores": [],
+  "bytes": 614876
+}
