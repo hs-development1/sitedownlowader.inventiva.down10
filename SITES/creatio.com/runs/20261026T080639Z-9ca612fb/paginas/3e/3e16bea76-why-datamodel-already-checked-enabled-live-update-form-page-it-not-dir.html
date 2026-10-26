@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script nonce="94f4be6d125bdd9c9475bde76a925e71">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+          n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-P6XJG79L');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8"/>
+<meta content="Drupal 11 (https://www.drupal.org)" name="Generator"/>
+<meta content="width" name="MobileOptimized"/>
+<meta content="true" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../recursos/d7/d7e5feddfb8a84fc9dd1-favicon.ico" rel="icon" type="image/vnd.microsoft.icon"/>
+<link href="https://community.creatio.com/questions/why-datamodel-already-checked-enabled-live-update-form-page-it-not-directly-change-value" rel="canonical"/>
+<link href="https://community.creatio.com/node/42327" rel="shortlink"/>
+<title>Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated) | Community Creatio</title>
+<link rel="stylesheet"/>
+<link rel="stylesheet"/>
+<link href="../../recursos/34/3450febe2a5ba7e49454-css_X2IjgDnd2d_P8o7XaI8J3paSDlyNLAnYwv2A3NNqIL4.css" media="all" rel="stylesheet"/>
+<link href="../../recursos/d3/d36f8a2b0e9a9e97a44d-css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css" media="all" rel="stylesheet"/>
+<link href="../../recursos/81/817dfb96eece02b9fc7a-css_0xaG-pDg8fUWTa9E6ALefbWQk180Cn29gQqPB9H1q0g.css" media="print" rel="stylesheet"/>
+</head>
+<body class="path-node page-node-type-question page-alias-questions-why-datamodel-already-checked-enabled-live-update-form-page-it-not-directly-change-value zone-com">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+<div class="creatio-page d-flex flex-column justify-content-between">
+<div class="creatio-page-content">
+<header role="banner">
+<div class="header-desktop d-none d-lg-block">
+<div class="creatio-region creatio-top">
+<div class="container"> <div class="region region-top">
+<div class="block block-simple-block block-simple-blocksearch-form-top" id="block-searchformtop">
+<div class="search-block-form contextual-region block block-search container-inline" data-drupal-selector="search-block-form" id="block-searchform" role="search">
+<form accept-charset="UTF-8" action="/search" data-drupal-form-fields="edit-keys" data-once="form-updated" id="search-block-form" method="get">
+<div class="js-form-item form-item js-form-type-search form-type-search js-form-item-search-api-fulltext form-item-search-api-fulltext form-no-label"><input class="form-search" data-drupal-selector="edit-keys" id="edit-keys" maxlength="128" name="search_api_fulltext" placeholder="Search" size="15" title="Enter the terms you wish to search for." type="search" value=""/></div>
+<div class="form-actions js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions--2"><input class="button js-form-submit form-submit" data-drupal-selector="edit-submit" id="edit-submit" type="submit" value="Search"/></div>
+</form>
+<div class="search-toggle"> </div>
+</div>
+</div>
+<nav aria-labelledby="block-vneshnieresursyru-menu" class="block block-menu navigation menu--external-sites-ru" id="block-vneshnieresursyru" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a href="../../index.html" id="community-go-creatio" target="_blank">Creatio</a>
+</li>
+<li class="menu-item">
+<a href="https://www.bank.ai/" id="community-go-bankai" target="_blank">Bank.AI</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-academy" target="_blank">Academy</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-marketplace" target="_blank">Marketplace</a>
+</li>
+</ul>
+</nav>
+<nav aria-labelledby="block-creatio-account-menu-menu" class="block block-menu navigation menu--account" id="block-creatio-account-menu" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a data-drupal-link-system-path="user/login" href="/user/login">Log in</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="creatio-region creatio-header">
+<div class="container"> <div class="region region-header">
+<div class="block-basic block block-block-content block-block-content8a62afa0-2cd9-473d-8414-407006a04718" id="block-logo-2">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="../../index.html"><img src="../../recursos/57/57fe9c46747fcf364df1-logo.svg" width="266"/> </a></p>
+</div>
+</div>
+<nav aria-labelledby="block-osnovnayanavigaciya-menu" class="block block-menu navigation menu--main" id="block-osnovnayanavigaciya" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item menu-item--collapsed">
+<a data-drupal-link-system-path="&lt;front&gt;" href="../../index.html">Feed</a>
+</li>
+<li class="menu-item">
+<a data-drupal-link-system-path="members" href="../61/619a2f3f9-members.html" id="community-selection-members">Members</a>
+</li>
+</ul>
+</nav>
+<div class="block-basic block block-block-content block-block-contentab28d27f-e421-46f6-ac78-f6f2fab0b248" id="block-addpostbuttonfornotloggedusers-2">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="bpmonline-add-post-button-not-login" href="/user/login">+<span> Add post</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-mobile d-block d-lg-none">
+<div class="creatio-region creatio-mobile-top">
+<div class="container">
+<div class="creatio-mobile-menu-toggle"><span></span></div>
+<div class="region region-mobile-top">
+<div class="block-basic block block-block-content block-block-content876fc317-53e0-4c33-861b-20a8aed106cf" id="block-mobileheaderlogo">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="logo" href="../../index.html"><img src="../../recursos/5a/5a156a5242624e09cd34-logo-white.svg"/> </a></p>
+</div>
+</div>
+<nav aria-labelledby="block-menyuuchyotnoyzapisipolzovatelya-menu" class="block block-menu navigation menu--account" id="block-menyuuchyotnoyzapisipolzovatelya" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a data-drupal-link-system-path="user/login" href="/user/login">Log in</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="creatio-region creatio-mobile-header">
+<div class="container"> <div class="region region-mobile-header">
+<nav aria-labelledby="block-osnovnayanavigaciya-2-menu" class="block block-menu navigation menu--main" id="block-osnovnayanavigaciya-2" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item menu-item--expanded">
+<a data-drupal-link-system-path="&lt;front&gt;" href="../../index.html">Feed</a>
+<ul class="menu">
+<li class="menu-item">
+<a data-drupal-link-query='{"type":"article"}' data-drupal-link-system-path="&lt;front&gt;" href="../46/4605d6160-index.html" id="community-section-articles">Articles</a>
+</li>
+<li class="menu-item">
+<a data-drupal-link-query='{"type":"idea"}' data-drupal-link-system-path="&lt;front&gt;" href="../21/21b4330e4-index.html" id="community-section-ideas">Ideas</a>
+</li>
+<li class="menu-item">
+<a data-drupal-link-query='{"type":"question"}' data-drupal-link-system-path="&lt;front&gt;" href="../05/056bc2dcd-index.html" id="community-section-questions">Questions</a>
+</li>
+</ul>
+</li>
+<li class="menu-item">
+<a data-drupal-link-system-path="members" href="../61/619a2f3f9-members.html" id="community-selection-members">Members</a>
+</li>
+</ul>
+</nav>
+<nav aria-labelledby="block-vneshnieresursyru-2-menu" class="block block-menu navigation menu--external-sites-ru" id="block-vneshnieresursyru-2" role="navigation">
+<ul class="menu menu--level-1">
+<li class="menu-item">
+<a href="../../index.html" id="community-go-creatio" target="_blank">Creatio</a>
+</li>
+<li class="menu-item">
+<a href="https://www.bank.ai/" id="community-go-bankai" target="_blank">Bank.AI</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-academy" target="_blank">Academy</a>
+</li>
+<li class="menu-item">
+<a href="../../index.html" id="community-go-marketplace" target="_blank">Marketplace</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="creatio-region creatio-content" role="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8 creatio-cont">
+<div class="region region-messages">
+<div class="hidden" data-drupal-messages-fallback=""></div>
+</div>
+<div class="region region-content">
+<div class="block block-system block-system-main-block" id="block-creatio-content">
+<div class="row bs-2col-bricked node node--type-question node--view-mode-full">
+<div class="col-sm-12 bs-region bs-region--top">
+<div class="group-top">
+<div class="field field--name-bundle-fieldnode field--type-ds field--label-hidden field__item">Question</div>
+<div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items">
+<div class="field__item"><a href="../6b/6b145b0fc-notupdadate.html" hreflang="en">NotUpdadate</a></div>
+<div class="field__item"><a href="../c2/c2c2a05d4-studiocreatio-66.html" hreflang="en">Studio_Creatio</a></div>
+<div class="field__item"><a href="../5f/5f816f509-datamodels.html" hreflang="en">datamodels</a></div>
+<div class="field__item"><a href="../44/44ce9d9bf-enableliveupdate.html" hreflang="en">#enableLiveUpdate</a></div>
+<div class="field__item"><a href="../c2/c2c2a05d4-studiocreatio-66.html" hreflang="en">Studio_Creatio</a></div>
+<div class="field__item"><a href="../16/16938da2b-8-0.html" hreflang="en">8.0</a></div>
+</div>
+</div>
+<div class="field field--name-node-title field--type-ds field--label-hidden field__item"><h1>
+  Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)
+</h1>
+</div>
+<div class="group-info">
+<div class="field field--name-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="3eb17cd48-217530.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/00/000c91f8c21c47f52d2f-man.png" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="3eb17cd48-217530.html" hreflang="en">Dedi Sadikin</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-node-post-date field--type-ds field--label-hidden field__item">13:32 Oct 05, 2026</div>
+</div>
+</div>
+<div class="col-sm-12 bs-region bs-region--middle">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Hi All, question please, I have form, let say named : MyApplication form page, and there have a business process that using Signal.</p>
+<p>And in that Business Process, there have a calculation that can modified value for let say field ABC. The Business Process and Calculation is already fine, but it is not directly change value from ABC field. It must refresh page first, then it is changed.</p>
+<p>My expected is, when Signal on Business Process is triggered, the Calculation running, then the output will change ABC field directly, not must to refresh.</p>
+<p>I checked Data Model Behaviour already Enabled live data update, but it is not working.</p>
+<p>Note : In another form page, it is not happening. I don't know why, this issue only happened in MyApplication form page.</p>
+<p>Need advice please, thank you.</p>
+<p><img data-entity-type="file" data-entity-uuid="fbfb698c-53e2-4d26-be25-f8989837777c" height="361" loading="lazy" src="../../recursos/04/040c31df666a9c324e53-image_1790.png" width="439"/>
+</p><p> </p>
+</div>
+<div class="container-statistics">
+<div class="group-like">
+<div class="vote-widget-wrapper">
+<div class="vote-widget">
+<div class="vote-like type-node" id="like-container-node-42327">
+<a data-entity-id="42327" data-entity-type="node" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+<div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"><p>Like</p>
+</div>
+</div>
+<div class="flag flag-bookmark js-flag-bookmark-42327 action-flag">
+<span></span>
+</div>
+<div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"><div class="comment-count"><span class="count">6</span> <span> comments</span></div>
+</div>
+</div>
+</div>
+<div class="col-sm-12 bs-region bs-region--bottom">
+<section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper">
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="../70/70d181e41-177760.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="../70/70d181e41-177760.html" hreflang="en">Oleg Drobina</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">13:35 Oct 05, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94323" tabindex="0">
+<a data-entity-id="94323" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p>Hi,</p>
+<p dir="ltr">The live data update checkbox is already on, so the problem is usually that <strong>this page is not connected to that object's updates</strong>, or <strong>the way the process writes the value doesn't send a refresh</strong>. Since it works on your other pages, compare MyApplication against a working page on each point below.</p>
+<p>1. Is MyApplication a Freedom UI page?</p>
+<p dir="ltr">Live data update only works on Freedom UI pages. If MyApplication is a Classic UI page, or the section opens the record in a classic page, the checkbox does nothing. Then you either rebuild the page in Freedom UI or add code to refresh it (a client message plus a page reload).<br/><strong>Check:</strong> open the page in the designer. A Freedom UI page uses the drag-and-drop designer with components on the left.</p>
+<p>2. Is the checkbox on the right object?</p>
+<p dir="ltr">The setting only matters on the object that is the page's <strong>primary data source</strong>. Common mismatches:</p>
+<ul dir="ltr">
+<li>The page is based on a different object, such as a replacement or a similarly named object (for example <code>UsrMyApplication</code> versus <code>UsrApplication</code>).</li>
+<li>Field ABC belongs to a <strong>related object</strong> (for example <code>Contact.ABC</code> shown through a lookup), and the process updates that related record. Then the related object needs live data update enabled too.</li>
+<li>The process updates a different object from the one the page is showing.</li>
+</ul>
+<p dir="ltr"><strong>Check:</strong> in the page designer, look at the data source and its object name. Compare it with the object in the process's <strong>Modify data</strong> element.</p>
+<p>3. Was the object saved and published after you ticked the box?</p>
+<p dir="ltr">Ticking the box is not enough. You need to <strong>Save and Publish</strong> the object. Then log out and back in, or clear the browser cache, so the page loads the new setting.</p>
+<p>4. How does the process write ABC?</p>
+<ul dir="ltr">
+<li><strong>Modify data</strong> element: sends the update to open pages. ✅</li>
+<li>
+<p><strong>Script task</strong> that writes with direct SQL (<code>Update</code>, <code>CustomQuery</code>, a raw <code>UPDATE ...</code>): skips the object layer, so no update is sent to the page. ❌</p>
+<p dir="ltr">If you need a script, save through an <code>Entity</code> instead, for example <code>entity.SetColumnValue(...)</code> followed by <code>entity.Save()</code>.</p>
+</li>
+</ul>
+<p>5. Signal timing</p>
+<p dir="ltr">If the signal fires on <strong>Record modified</strong> and the user saves from the same page, the process can write ABC while the page is still finishing its own save. The page then keeps the old value it has in memory.</p>
+<ul dir="ltr">
+<li>In the signal element, make sure <strong>"Run following elements in background"</strong> is ticked so the calculation runs after the save completes.</li>
+<li>If the user still has <strong>unsaved changes</strong> on the page, the incoming value may not overwrite the form. Test with a clean, saved record.</li>
+</ul>
+<p>6. Is ABC a real field on the page?</p>
+<p dir="ltr">ABC must be bound to the object's column through the page's data source. If it is a page attribute or a custom field filled by a handler, live update won't refresh it.<br/><br/><strong>The first thing to check is publishing and compiling the object, then performing the test after compilation is complete.</strong></p>
+<p dir="ltr"><strong>Quick test to narrow it down:</strong> open a MyApplication record in one browser tab. In another tab, open the same record in the <strong>section list</strong>, or as a different user, and change ABC by hand.</p>
+<ul dir="ltr">
+<li>If the first tab doesn't update, the cause is points 1 to 3 (page or object setup).</li>
+<li>If it does update but the process change doesn't show, the cause is points 4 or 5 (how or when the process writes the value).</li>
+</ul>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../e2/e283f2fee-94323.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="3eb17cd48-217530.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/00/000c91f8c21c47f52d2f-man.png" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="3eb17cd48-217530.html" hreflang="en">Dedi Sadikin</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">07:11 Oct 06, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94324" tabindex="0">
+<a data-entity-id="94324" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p>Hi Oleg, so I already tried to open Form Page with another browser, and login with another account. Then I changed the value from ABC field in that another browser.</p>
+<ul>
+<li>In another browser = Saved--&gt; In the first browser = the value is not change</li>
+<li>In another browser = Not saved (only change value) --&gt; In the first browser = the value is not change also</li>
+</ul>
+<p>Based on your suspect above, so maybe the cause is points 1 to 3.<br/>I checked from point 1 to 3 :<br/>1. My Form Page is using Freedom UI</p>
+<p>2. Yes, it is in the right object. I compare ABC field in the form page (it is from primary data source)</p>
+<p><img data-entity-type="file" data-entity-uuid="ae8ed0b3-9b5f-4662-86f9-376ff6963468" height="850" loading="lazy" src="../../recursos/f1/f1929bdf7bab4fde4b16-image_1791.png" width="1831"/>
+</p><p>3. Yes, the object I already Save &amp; Published after tick the box "Enable Live Data Update"</p>
+<p> </p>
+<p>So, all is correct setup Oleg, any suggestion? Thank you for help.</p>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../22/22b07486b-94324.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="../70/70d181e41-177760.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="../70/70d181e41-177760.html" hreflang="en">Oleg Drobina</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">10:27 Oct 06, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94325" tabindex="0">
+<a data-entity-id="94325" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p><em><strong>Dedi Sadikin,</strong></em></p>
+<p>Just to be on the same page: have you tried compiling the object using this option?</p>
+<p><img data-entity-type="file" data-entity-uuid="3bdd0857-42de-4ff9-99e7-b99d334f5398" height="409" loading="lazy" src="../../recursos/f5/f5c7d5872fbf6fdbd888-image_1792.png" width="662"/>
+</p><p>It might help, we had tickets related to such behavior in the past and the fix was to compile the object.</p>
+<p dir="ltr">Your test shows the problem isn't the business process. A manual change saved from another browser also doesn't reach the first browser, so live update isn't working for this page at all.</p>
+<p dir="ltr">The "not saved" case is normal: unsaved changes never go to other users. Only the "saved" case matters.</p>
+<p>Step 1: Repeat the test on a page that works</p>
+<p dir="ltr">Do the same two-browser test on one of the pages where you said it works. Use two different users, change the field, save, and watch the other browser.</p>
+<ul dir="ltr">
+<li>
+<p><strong>If that page also doesn't update:</strong> the problem is server or network, not your object. Common causes:</p>
+<ul dir="ltr">
+<li>The WebSocket connection is blocked by a proxy, load balancer or firewall.</li>
+<li>Several web servers run without Redis message sharing configured. A save on server A is then never sent to a user connected to server B, so it looks random by page or user.</li>
+</ul>
+<p dir="ltr">To check, open the browser DevTools (F12), go to Network, and filter by <strong>WS</strong>. There should be an open WebSocket connection, and a message should arrive when the other browser saves. If nothing arrives, give this to your Creatio admin or hosting support.</p>
+</li>
+<li><strong>If that page does update:</strong> the problem is specific to the Application object or the MyApplication page. Continue with step 2.</li>
+</ul>
+<p>Step 2: Check the object and page</p>
+<ol dir="ltr">
+<li><strong>The checkbox stayed ticked.</strong> Close the object designer, reopen the Application object, and confirm "Enable live data update" is still ticked. If the object has a replacing version in another package, the tick may have been saved somewhere that isn't used.</li>
+<li><strong>Clean restart.</strong> After publishing, the setting may still be cached. Log out every test user and clear the browser cache. On-site, restart the app or ask your admin to flush Redis. On cloud, ask support to restart the site.</li>
+<li><strong>No unsaved changes in the first browser.</strong> If you edited anything on the page in browser 1 before the other save, the page may keep its own values. Open the record fresh and touch nothing, then save in browser 2.</li>
+<li><strong>Custom code on the page.</strong> If MyApplication has handlers added by a developer, temporarily disable them and test again. Look in the page's source code at <code>handlers</code>, especially anything that intercepts data loading or attribute changes.</li>
+<li><strong>Isolation test.</strong> Create a new Freedom UI page for the same Application object using the default template, add field ABC, and run the two-browser test.<br/>
+<ul dir="ltr">
+<li>It works: the original MyApplication page is the problem. Compare the two, or rebuild the page.</li>
+<li>It doesn't work: the object is the problem. Raise a ticket with Creatio support and include your Creatio version and this test.</li>
+</ul>
+</li>
+</ol>
+<p>If you need a fix now</p>
+<p dir="ltr">Until live update works, add a <strong>Refresh</strong> button to the page. In the Freedom UI button properties, choose the action that reloads the page data. Users can then see the process result without a full browser refresh.</p>
+<p dir="ltr">Your Modify data setup in the screenshot looks correct: the object is Application, the filter is Id = the signal's record, and it sets Monthly Installment. Once live update works for manual edits, the process result should show up as well.</p>
+<p> </p>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../07/078a61029-94325.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="3eb17cd48-217530.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/00/000c91f8c21c47f52d2f-man.png" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="3eb17cd48-217530.html" hreflang="en">Dedi Sadikin</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">09:50 Oct 07, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94326" tabindex="0">
+<a data-entity-id="94326" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p>Oleg, thank you for the feedback, but is it possible if we have session, maybe 15 minutes on zoom? I hard to explain in this Community. I don't know, I think we have missunderstanding. Thank you, appreciate it.</p>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../d7/d7cd975d4-94326.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="../70/70d181e41-177760.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="../70/70d181e41-177760.html" hreflang="en">Oleg Drobina</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">11:25 Oct 07, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94327" tabindex="0">
+<a data-entity-id="94327" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p><em><strong>Dedi Sadikin,</strong></em></p>
+<p>Please register a ticket by emailing us at <a href="mailto:support@creatio.com">support@creatio.com</a>, specifying link to the application where the issue occurs with external access to this application (access to data and configuration are needed) under the system administrator and steps to reproduce the issue and the support team will look into it.</p>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../74/74ea58af6-94327.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row bs-1col comment comment--type-comment comment--view-mode-default">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="comment-top">
+<div class="field field--name-comment-user field--type-ds field--label-hidden field__item"><div class="row bs-1col user user--type-user user--view-mode-avatar-with-name">
+<div class="col-sm-12 bs-region bs-region--main">
+<div class="field field--name-user-picture">
+<a href="3eb17cd48-217530.html"> <img class="image-style-avatar-small" height="100" loading="lazy" src="../../recursos/00/000c91f8c21c47f52d2f-man.png" width="100"/>
+</a></div>
+<div class="field field--name-username field--type-ds field--label-hidden field__item"><user_name-wrtapper class="user_name-wrtapper">
+<a href="3eb17cd48-217530.html" hreflang="en">Dedi Sadikin</a>
+</user_name-wrtapper>
+</div>
+</div>
+</div>
+</div>
+<div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item">12:59 Oct 07, 2026</div>
+<div class="vote-widget-wrapper">
+<div class="vote-widget vote-widget--like-and-dislike">
+<div class="vote-like type-comment" id="like-container-comment-94328" tabindex="0">
+<a data-entity-id="94328" data-entity-type="comment" title="Like">Like</a>
+<span class="count">0</span>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"><p>Hi Oleg, thank you for the feedback, I already email to support creatio about this, and I upload video how to produce this question, also I already give access until 14 Oct 2026. Thank you for the support Oleg, appreciate it.</p>
+</div>
+<ul class="links inline"><li class="comment-reply"><a href="../99/99f3514d7-94328.html">Reply</a></li></ul>
+</div>
+</div>
+<div class="row show-all"><span>Show all comments</span></div>
+<div class="comment-user-login-block">
+<a href="../40/403029f2a-login.html">Log in</a> or <a href="../ef/ef1add712-register.html">register</a> to comment
+    </div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="col-12 col-lg-4 sidebar-second d-none d-lg-block" role="complementary">
+<div class="region region-sidebar-second">
+<div class="block block-ts-custom block-live-feeds" id="block-livefeeds">
+<div class="block-title">Live Feeds</div>
+<div class="feed-items">
+<div class="feed-scroll">
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../0b/0b68b5e77-185515.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../0b/0b68b5e77-185515.html">Pavel Petrov</a></div>
+<div class="feed-desc">published</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../44/44421dde1-richtext-field-editor-does-not-allow-you-specify-link-character.html" title='RichText field editor does not allow you to specify a link with the "#" character.'>RichText field editor does not allow you to specify a link with the "#" character.</a>
+</div>
+<div class="feed-date">19 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../40/4017c9543-218157.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../40/4017c9543-218157.html">Olivia Michel Bushra</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../3f/3fd1ada25-sms-csat.html" title="SMS &amp; CSAT">SMS &amp; CSAT</a>
+</div>
+<div class="feed-date">18 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../40/4017c9543-218157.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../40/4017c9543-218157.html">Olivia Michel Bushra</a></div>
+<div class="feed-desc">commented on the publication</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../28/285caa71c-twilio-sms-pro-integration-creatio.html" title="TWILIO SMS PRO INTEGRATION FOR CREATIO">TWILIO SMS PRO INTEGRATION FOR CREATIO</a>
+</div>
+<div class="feed-date">18 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../ba/ba9c2ab5f-212400.html">
+<img src="../../recursos/c5/c537eb2130a603ce290a-man1.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../ba/ba9c2ab5f-212400.html">Artem Ivzhenko</a></div>
+<div class="feed-desc">published</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../90/90db07a6e-whats-best-architectural-approach-building-package-hierarchy-creatio-p.html" title="What's the best architectural approach to building a package hierarchy for a Creatio project?">What's the best architectural approach to building a package hierarchy for a Creatio project?</a>
+</div>
+<div class="feed-date">15 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3f/3ff454875-216697.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3f/3ff454875-216697.html">Maksymilian Majchrzyk</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../11/11afb81fd-integration-active-directory-entraid-group-users.html" title="Integration with Active Directory (EntraID) for group of users">Integration with Active Directory (EntraID) for group of users</a>
+</div>
+<div class="feed-date">15 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../ba/ba9c2ab5f-212400.html">
+<img src="../../recursos/c5/c537eb2130a603ce290a-man1.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../ba/ba9c2ab5f-212400.html">Artem Ivzhenko</a></div>
+<div class="feed-desc">commented on the publication</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../10/10d18fd8c-framework-automated-testing-creatio-platform.html" title="Framework for automated testing of the Creatio platform.">Framework for automated testing of the Creatio platform.</a>
+</div>
+<div class="feed-date">14 October 2026</div>
+</div>
+<div class="feed-item type-article">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../fc/fc20d93ce-218602.html">
+<img src="../../recursos/96/964522c07903c0a58f5a-Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../fc/fc20d93ce-218602.html">Ivanna </a></div>
+<div class="feed-desc">published</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../36/364c0d444-new-creatio-marketplace-syntech-availability-matrix-creatio.html" title="New on Creatio Marketplace: Syntech Availability Matrix for Creatio">New on Creatio Marketplace: Syntech Availability Matrix for Creatio</a>
+</div>
+<div class="feed-date">14 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../3f/3ff454875-216697.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../3f/3ff454875-216697.html">Maksymilian Majchrzyk</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../8a/8a24e0f0e-different-uis-mobile-app-employee-and-external-user.html" title="Different UI's in mobile app for employee and for external user">Different UI's in mobile app for employee and for external user</a>
+</div>
+<div class="feed-date">14 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../9e/9e025220f-how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript.html" title="How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?">How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?</a>
+</div>
+<div class="feed-date">12 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../1f/1f125f13f-214961.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../1f/1f125f13f-214961.html">Krzysztof</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../e2/e2a391797-esq-transactions.html" title="ESQ Transactions">ESQ Transactions</a>
+</div>
+<div class="feed-date">12 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../e2/e2a391797-esq-transactions.html" title="ESQ Transactions">ESQ Transactions</a>
+</div>
+<div class="feed-date">11 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../a1/a1ccb50d1-204699.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../a1/a1ccb50d1-204699.html">Serhii Sermakshev</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../bb/bb2b4d88c-feedom-ui-sdk-comparison-type.html" title="Feedom UI SDK Comparison Type ">Feedom UI SDK Comparison Type </a>
+</div>
+<div class="feed-date">11 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../cb/cbb5ec6cc-205876.html">
+<img src="../../recursos/90/906f88373b71c4e001a4-woman2.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../cb/cbb5ec6cc-205876.html">Chetana Gharat</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../9e/9e025220f-how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript.html" title="How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?">How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?</a>
+</div>
+<div class="feed-date">10 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../1f/1f125f13f-214961.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../1f/1f125f13f-214961.html">Krzysztof</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../e2/e2a391797-esq-transactions.html" title="ESQ Transactions">ESQ Transactions</a>
+</div>
+<div class="feed-date">9 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../df/df72fa7d8-business-process-wont-run-open-specific-page.html" title="Business Process won't run open specific  page">Business Process won't run open specific  page</a>
+</div>
+<div class="feed-date">9 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../92/929b44277-219736.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../92/929b44277-219736.html">Kevin Samuel</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../df/df72fa7d8-business-process-wont-run-open-specific-page.html" title="Business Process won't run open specific  page">Business Process won't run open specific  page</a>
+</div>
+<div class="feed-date">8 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../b9/b95959a2e-how-can-i-add-data-source-mobile-page.html" title="How can I add data source in Mobile Page ?">How can I add data source in Mobile Page ?</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="3eb17cd48-217530.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="3eb17cd48-217530.html">Dedi Sadikin</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="3e16bea76-why-datamodel-already-checked-enabled-live-update-form-page-it-not-dir.html" title="Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)">Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="3eb17cd48-217530.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="3eb17cd48-217530.html">Dedi Sadikin</a></div>
+<div class="feed-desc">asked a new question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="../b9/b95959a2e-how-can-i-add-data-source-mobile-page.html" title="How can I add data source in Mobile Page ?">How can I add data source in Mobile Page ?</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="../70/70d181e41-177760.html">
+<img src="../../recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="../70/70d181e41-177760.html">Oleg Drobina</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="3e16bea76-why-datamodel-already-checked-enabled-live-update-form-page-it-not-dir.html" title="Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)">Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+<div class="feed-item type-question">
+<div class="feed-top">
+<div class="feed-user-avatar">
+<a href="3eb17cd48-217530.html">
+<img src="../../recursos/00/000c91f8c21c47f52d2f-man.png"/>
+</a>
+</div>
+<div class="feed-info">
+<div class="feed-user"><a href="3eb17cd48-217530.html">Dedi Sadikin</a></div>
+<div class="feed-desc">commented on the question</div>
+</div>
+</div>
+<div class="feed-title">
+<a href="3e16bea76-why-datamodel-already-checked-enabled-live-update-form-page-it-not-dir.html" title="Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)">Why in DataModel already checked Enabled live update but in Form Page it is not directly change the value (not updated)</a>
+</div>
+<div class="feed-date">7 October 2026</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+</div>
+<footer role="contentinfo">
+<div class="creatio-region creatio-footer">
+<div class="container">
+<div class="region region-footer">
+<div class="block-basic block block-block-content block-block-content6ad5c782-9fe2-4a86-86a6-ad5f0411c76d" id="block-creatio-futerru">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="footer">
+<div class="footer-left">
+<div class="footer-accelerate"> </div>
+<ul class="footer-socials">
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_fb" href="https://www.facebook.com/CreatioCompany" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_in" href="https://www.linkedin.com/company/creatioglobal" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_yt" href="https://www.youtube.com/c/creatio" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_tw" href="https://www.twitter.com/Creatio_Global" target="_blank"> </a></li>
+<li class="footer-socials__item"><a class="footer-socials__link footer-socials__link_ow" href="https://www.owler.com/company/Creatio" target="_blank"> </a></li>
+</ul>
+</div>
+<div class="footer-links">
+<div class="footer-title">Connect with us</div>
+<div class="footer-content">
+<div class="footer-items">
+<div class="footer-item"><a class="footer__link footer__link_phone" href="tel:+16177657997">USA: +1 617 765 7997</a></div>
+<div class="footer-item"><a class="footer__link footer__link_phone" href="tel:+442033840040">UK: +44 20 3384 0040</a></div>
+<div class="footer-item"><a class="footer__link footer__link_phone" href="tel:+61261452888">Australia: +61 261 452 888</a></div>
+</div>
+<div class="footer-items">
+<div class="footer-item"><a class="footer__link footer__link_email" href="mailto:info@creatio.com">info@creatio.com</a></div>
+<div class="footer-item"><a class="footer__link footer__link_email" href="mailto:support@creatio.com">support@creatio.com</a></div>
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+#modal.edit-field #user-avatar .thumbnail{
+padding-bottom: 0;
+margin-bottom: 10px;
+}
+</style></div>
+</div>
+</div>
+</div>
+</div>
+<div class="creatio-region creatio-copyright">
+<div class="container">
+<div class="region region-copyright">
+<div class="block-basic block block-block-content block-block-content49e5b331-5878-4954-928c-70a0a63a000d" id="block-copyright-2">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>© 2026 Creatio. All rights reserved. <span>|</span> <a href="../2e/2e080a2ce-privacy-policy.html" target="_blank">Privacy Policy</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="creatio-buttons d-block d-lg-none">
+<div class="region region-buttons">
+<div class="block-basic block block-block-content block-block-contentab28d27f-e421-46f6-ac78-f6f2fab0b248" id="block-addpostbuttonfornotloggedusers-3">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="bpmonline-add-post-button-not-login" href="/user/login">+<span> Add post</span></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-drupal-selector="drupal-settings-json" type="application/json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/42327","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxlj21uwzAIhi_khiNZOCYuK8aVIV290y9WU6na_qDn_UAIzNkb6gA8Ydl6Uw-roNmAhEZvrmSGhSysrVZSh9z3O8pyyksalwfTN_Wj0Am09YrCP8d-J3RucRZ3ZR9QpCWUsAkWmGMR1tsfGfELn0H4RhE1x8w2GRJd8cGt_094bWpBSxQuV0_tCR8cbJhTfT3kFhOZd7rLgEwb7uLTzOgoOKjDp5iJcJre2nb1Pl7OcfLc_QVEDX6j","theme":"creatio","theme_token":null},"ajaxTrustedUrl":[],"field_group":{"html_element":{"mode":"full","context":"view","settings":{"label":"Top","classes":"group-top","id":"","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"e37786633a9c0a6f6f07565e43c30e80b4e9d857fed5c4e353f172321e6ccd6f"}}</script>
+<script src="../../recursos/43/431eb73bf298573c002f-jquery.min.js"></script>
+<script src="../../recursos/e4/e46d6b41cf03ef779f8b-js_h34jYDlm0DccpoCz4BEGyslCs455U0fiGnVHWKtPsJg.js"></script>
+<script src="../../recursos/56/563de8f7f95211f3607a-index.js"></script>
+<script src="../../recursos/9c/9c0ae44d304cd425c15e-js_MrUmK1pZ9bjYCMy9ya6qJ38NGYuK47qcz-GzCuCwkI8.js"></script>
+
+<script src="../../recursos/6d/6df986dbc3e847948046-js_0wKuckJa-OPazGwWMZW2xkdVL9YV3TnhX1IWqf9hR9M.js"></script>
+<div class="modal edit-field" id="modal">
+<div class="inner-flex">
+<h2></h2>
+<div class="elements">
+</div>
+<div class="bottom">
+<button class="close" id="close">Cancel</button>
+<button class="modal-submit">Save</button>
+</div>
+</div>
+</div>
+<div class="modal-overlay"></div>
+</body>
+</html>

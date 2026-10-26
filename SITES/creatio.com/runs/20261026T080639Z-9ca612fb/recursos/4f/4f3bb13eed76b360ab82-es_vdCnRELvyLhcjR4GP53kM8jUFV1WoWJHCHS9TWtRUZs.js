@@ -1,0 +1,1 @@
+window.drupalTranslations = {"strings":{"":{"Next":"Pr\u00f3xima"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}}};
