@@ -1,0 +1,199 @@
+{
+  "sitio": "https://qvet.net/",
+  "fecha": "2026-10-27T07:44:55.775046+00:00",
+  "paginas": [
+    "https://qvet.net/pt/qvet-um-software-de-gestao-veterinaria-100-personalizavel/",
+    "https://qvet.net/pt/qvetcostarica/",
+    "https://qvet.net/pt/qvetysantevet/",
+    "https://qvet.net/pt/rd666-actualizar-clientes-landing-qvet/",
+    "https://qvet.net/pt/recursos/",
+    "https://qvet.net/pt/saiba-todos-os-beneficios-de-transferir-o-seu-software-veterinario-para-a-nuvem/",
+    "https://qvet.net/pt/simplifique-a-gestao-no-seu-centro-veterinario-com-a-assinatura-digital/",
+    "https://qvet.net/pt/strongpoint/",
+    "https://qvet.net/pt/sumate-qvet/",
+    "https://qvet.net/pt/tabla-acciones/"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 40,
+  "fotografias_descargadas": 33,
+  "bytes_fotografias": 34898684,
+  "recursos_pendientes": 0,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 39602402,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/mascotas.jpg",
+      "archivo": "recursos/5d/5deb6597c0568e6780b7-mascotas.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/mascotas-300x134.jpg",
+      "archivo": "recursos/21/210971b4554cc5a6bd23-mascotas-300x134.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/mascotas-1024x457.jpg",
+      "archivo": "recursos/59/59d9a7f1496280e2898e-mascotas-1024x457.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/mascotas-768x343.jpg",
+      "archivo": "recursos/fc/fc3e20642c9253b68f90-mascotas-768x343.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/mascotas-18x8.jpg",
+      "archivo": "recursos/f2/f288d37e7afcc1337e88-mascotas-18x8.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca.jpg",
+      "archivo": "recursos/81/81b155966ee28f8ff321-doctor-vestido-estetoscopio-bata-blanca.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-8628715afa51c2c2b64a5b48b75bbc66.css",
+      "archivo": "recursos/6b/6ba98bd31bdce2de212c-siteground-optimizer-combined-css-8628715afa51c2c2b64a5b48b75bbc66.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-832b9f6675f93746ebd2ea6d94cb9d82.css",
+      "archivo": "recursos/44/44cf43343e5e92b3670e-siteground-optimizer-combined-css-832b9f6675f93746ebd2ea6d94cb9d82.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell-1024x683.jpg",
+      "archivo": "recursos/dd/dd12e85ab7961bd08b89-cheerful-vet-holding-smiling-jack-russell-1024x683.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell-300x200.jpg",
+      "archivo": "recursos/fa/faa89b7eef31f41cae49-cheerful-vet-holding-smiling-jack-russell-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell-768x512.jpg",
+      "archivo": "recursos/69/693482ef011f4bb5750a-cheerful-vet-holding-smiling-jack-russell-768x512.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell-1536x1024.jpg",
+      "archivo": "recursos/85/8588e07bd3bdc6734c83-cheerful-vet-holding-smiling-jack-russell-1536x1024.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell-2048x1365.jpg",
+      "archivo": "recursos/0d/0d1f375413ac2477c5a5-cheerful-vet-holding-smiling-jack-russell-2048x1365.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell-18x12.jpg",
+      "archivo": "recursos/a8/a8d507a4a6ea256dced2-cheerful-vet-holding-smiling-jack-russell-18x12.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/09/cheerful-vet-holding-smiling-jack-russell.jpg",
+      "archivo": "recursos/85/8512c898d021342481c4-cheerful-vet-holding-smiling-jack-russell.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-f01a5372f93ff97e65c52fdef28b7291.css",
+      "archivo": "recursos/9c/9c01637e263d349db19c-siteground-optimizer-combined-css-f01a5372f93ff97e65c52fdef28b7291.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu-527x1024.png",
+      "archivo": "recursos/54/546f0d5c0e156e519d02-Campana-Verifactu-527x1024.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu-154x300.png",
+      "archivo": "recursos/0e/0e576016f07a459fbf8a-Campana-Verifactu-154x300.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu-768x1493.png",
+      "archivo": "recursos/8c/8c4810dd92c698da5c2c-Campana-Verifactu-768x1493.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu-790x1536.png",
+      "archivo": "recursos/1d/1d6738ae0c6d2affb211-Campana-Verifactu-790x1536.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu-1053x2048.png",
+      "archivo": "recursos/1a/1a50bc654af2b0120210-Campana-Verifactu-1053x2048.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu-6x12.png",
+      "archivo": "recursos/93/93b223d71b0276faa382-Campana-Verifactu-6x12.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/02/Campana-Verifactu.png",
+      "archivo": "recursos/27/27f646af8b76bfef9287-Campana-Verifactu.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-69173eb3eddbff5aa52fd1fccb8fcc07.css",
+      "archivo": "recursos/cc/cc2df7694256db77345c-siteground-optimizer-combined-css-69173eb3eddbff5aa52fd1fccb8fcc07.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/10/copia-de-inscripciones-abiertas-20-1-819x1024.png",
+      "archivo": "recursos/ce/ce61d90f2b28a32407af-copia-de-inscripciones-abiertas-20-1-819x1024.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/10/copia-de-inscripciones-abiertas-20-1-240x300.png",
+      "archivo": "recursos/64/6431bfc753c2c9911a2d-copia-de-inscripciones-abiertas-20-1-240x300.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/10/copia-de-inscripciones-abiertas-20-1-768x960.png",
+      "archivo": "recursos/bf/bf63d35a156437383d3f-copia-de-inscripciones-abiertas-20-1-768x960.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/10/copia-de-inscripciones-abiertas-20-1-10x12.png",
+      "archivo": "recursos/98/986c8b79e776141e8b35-copia-de-inscripciones-abiertas-20-1-10x12.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/10/copia-de-inscripciones-abiertas-20-1.png",
+      "archivo": "recursos/c3/c36bda0b510c34339b34-copia-de-inscripciones-abiertas-20-1.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/06/mujer-escribiendo-cuaderno-1536x1025.jpg",
+      "archivo": "recursos/79/7955c7ec6b4c8377b75a-mujer-escribiendo-cuaderno-1536x1025.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/06/mujer-escribiendo-cuaderno-2048x1367.jpg",
+      "archivo": "recursos/43/43de0fb46b9e85baf259-mujer-escribiendo-cuaderno-2048x1367.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/06/mujer-escribiendo-cuaderno.jpg",
+      "archivo": "recursos/d9/d9b718612a37439451ad-mujer-escribiendo-cuaderno.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-192010441aec9449aed48707b8c3e153.css",
+      "archivo": "recursos/00/008efe69d549bff241dd-siteground-optimizer-combined-css-192010441aec9449aed48707b8c3e153.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/04/CashGuard-UNI-814x1024.png",
+      "archivo": "recursos/60/601be6bad380f3092cf9-CashGuard-UNI-814x1024.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/04/CashGuard-UNI-239x300.png",
+      "archivo": "recursos/4f/4ffc29b20e39a11c91ec-CashGuard-UNI-239x300.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/04/CashGuard-UNI-768x966.png",
+      "archivo": "recursos/b8/b8151cef6d58e0651f53-CashGuard-UNI-768x966.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/04/CashGuard-UNI-10x12.png",
+      "archivo": "recursos/61/615ad9863b3bac2daa45-CashGuard-UNI-10x12.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/04/CashGuard-UNI.png",
+      "archivo": "recursos/54/54c4eec0b751640fcd45-CashGuard-UNI.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-8a7fb649a3ad411690aec67eb5c0f53d.css",
+      "archivo": "recursos/5b/5bb583656c1440a282d1-siteground-optimizer-combined-css-8a7fb649a3ad411690aec67eb5c0f53d.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-90effbd54a262d63f1a201c21a6ba689.css",
+      "archivo": "recursos/d8/d8b2916d8aa667811191-siteground-optimizer-combined-css-90effbd54a262d63f1a201c21a6ba689.css"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://www.google.com/recaptcha/api.js?onload=onloadSibCallback&render=explicit",
+    "https://www.google.com/recaptcha/api.js?render=explicit&ver=4.0.4",
+    "https://www.googletagmanager.com/gtag/js?id=GT-K8D2BQN&",
+    "https://www.youtube.com/embed/W7WnqJxtWkQ?feature=oembed"
+  ],
+  "errores": [],
+  "bytes": 40426028
+}
